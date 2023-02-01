@@ -1,0 +1,17 @@
+/* vendor */
+@import url(../vendor/normalize.css);
+@import url(../vendor/fonts/inter.css);
+@import url(../vendor/fonts/oswald.css);
+@import url(../vendor/variables.css);
+
+/* root */
+@import url(../blocks/root/root.css);
+
+/*header*/
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/__logo/header__logo.css);
+
+/*footer*/
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__copyright/footer__copyright.css);
+
