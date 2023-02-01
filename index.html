@@ -14,7 +14,7 @@
 </head>
 <body>
 
-  <header class="header">
+  <header class="header" id="header">
     <img class="header__logo" src="./images/logo.svg" alt="Логотип Артем Хмелев">
     <nav class="header__links">
       <a class="header__link" href="#portfolio">Портфолио</a>
@@ -26,126 +26,130 @@
   <main>
 
     <section class="hero">
-      <h1 class="title title_medium mb_55">Сайт-резюме Хмелёва Артёма, соискателя по профессии «Веб-мастер»</h1>
-      <div class="hero__container">
-        <p class="paragraph mb_30">Обладаю всеми необходимыми навыками для работы в вашей дружной и стремительно развивающейся IT-компании</p>
-        <p class="paragraph mb_5">Желаемые вакансии:</p>
-        <p class="paragraph strong mb_35">Веб-дизайнер / HTML-верстальщик / Frontend-джуниор</p>
-        <div class="button-box">
-          <a class="button button__main button__main_mail" href="#">На собеседование?</a>
-          <a class="button button__simple button__simple_telegram" href="#">Просто пообщаться</a>
-        </div>
-      </div>
+      <h1 class="hero__title title">Сайт-резюме Хмелёва Артёма, соискателя по профессии «Веб-мастер»</h1>
       <img class="hero__image" src="./images/hero.jpg" alt="Артем Хмелев">
+      <div class="hero__container">
+        <p class="hero__text-description">Обладаю всеми необходимыми навыками для работы в вашей дружной и стремительно развивающейся IT-компании</p>
+        <p class="hero__text-requests">Желаемые вакансии:</p>
+        <ul class="hero__vacancy">
+          <li class="hero__vacancy-item">Веб-дизайнер</li> 
+          <li class="hero__vacancy-item">HTML-верстальщик</li> 
+          <li class="hero__vacancy-item">Frontend-джуниор</li>          
+        </ul>
+        <div class="hero__btn-box">
+          <a class="hero__btn hero__btn_main hero__btn_main_mail" href="#">На собеседование?</a>
+          <a class="hero__btn hero__btn_simple hero__btn_simple_telegram" href="#">Просто пообщаться</a>
+        </div>
+      </div>      
     </section>
 
-    <section class="porfolio">
+    <section class="portfolio" id="portfolio">
 
       <h2 class="subtitle">Портфолио</h2>
       
       <ul class="card">
 
-        <li class="card__item card__item_high">        
-          <img class="card__pic card__pic_high" src="./images/portfolio/work_01.jpg" alt="Pet-project «Музыка»">
-          <article class="card__info-high">
-            <h3 class="card__title">Pet-project «Музыка»</h3>
-            <ul class="card__bread mb_15">
-              <li class="card__bread-item">HTML</li>
-              <li class="card__bread-item">CSS</li>
-              <li class="card__bread-item">JS</li>
-              <li class="card__bread-item">React</li>
-              <li class="card__bread-item">Figma</li>
+        <li class="card__master">        
+          <img class="card__pic card__pic_master" src="./images/portfolio/work_01.jpg" alt="Pet-project «Музыка»">
+          <article class="card__master-article">
+            <h3 class="card__master-title">Pet-project «Музыка»</h3>
+            <ul class="card__master-bread">
+              <li class="card__master-bread-item">HTML</li>
+              <li class="card__master-bread-item">CSS</li>
+              <li class="card__master-bread-item">JS</li>
+              <li class="card__master-bread-item">React</li>
+              <li class="card__master-bread-item">Figma</li>
             </ul>
-            <div class="button-box mb_25">
-              <a class="button button__main button__main_gosite" href="#">Посмотреть сайт</a>
-              <a class="button button__simple button__simple_github" href="#">GitHub</a>
-              <a class="button button__simple button__simple_figma" href="#">Figma</a>
+            <div class="card__btn-box">
+              <a class="card__btn card__btn_main card__btn_main_gosite" href="#">Посмотреть сайт</a>
+              <a class="card__btn card__btn_simple card__btn_simple_github" href="#">GitHub</a>
+              <a class="card__btn card__btn_simple card__btn_simple_figma" href="#">Figma</a>
             </div>
-            <p class="paragraph">Факультативный проект, сделанный во время прохождения учебы на свободную музыкальную тему. Сайт фактически является каталогом любимой музыки, включающей информацию об исполнителях и треках</p>
+            <p class="card__master-description">Факультативный проект, сделанный во время прохождения учебы на свободную музыкальную тему. Сайт фактически является каталогом любимой музыки, включающей информацию об исполнителях и треках</p>
           </article>
         </li>
         
-        <li class="card__item card__item_small">        
-          <img class="card__pic card__pic_small" src="./images/portfolio/work_02.jpg" alt="Сайт «КАС-24»">
-          <article class="card__info-small">
-            <h3 class="card__title">Сайт «КАС-24»</h3>
-            <ul class="card__bread mb_15">
-              <li class="card__bread-item">HTML</li>
-              <li class="card__bread-item">CSS</li>
-              <li class="card__bread-item">JS</li>              
+        <li class="card__slave">        
+          <img class="card__pic card__pic_slave" src="./images/portfolio/work_02.jpg" alt="Сайт «КАС-24»">
+          <article class="card__slave-article">
+            <h3 class="card__slave-title">Сайт «КАС-24»</h3>
+            <ul class="card__slave-bread">
+              <li class="card__slave-bread-item">HTML</li>
+              <li class="card__slave-bread-item">CSS</li>
+              <li class="card__slave-bread-item">JS</li>              
             </ul>
-            <div class="button-box mb_25">
-              <a class="button button__main button__main_gosite" href="#">Посмотреть сайт</a>
-              <a class="button button__simple button__simple_github" href="#">GitHub</a>              
+            <div class="card__btn-box">
+              <a class="card__btn card__btn_main card__btn_main_gosite" href="#">Посмотреть сайт</a>
+              <a class="card__btn card__btn_simple card__btn_simple_github" href="#">GitHub</a>              
             </div>
-            <p class="paragraph">Лендинг для компании срочных услуг по аварийному вскрытию замков</p>
+            <p class="card__master-description">Лендинг для компании срочных услуг по аварийному вскрытию замков</p>
           </article>
         </li>
 
-        <li class="card__item card__item_small">        
-          <img class="card__pic card__pic_small" src="./images/portfolio/work_03.jpg" alt="Сайт «Флешка»">
-          <article class="card__info-small">
-            <h3 class="card__title">Сайт «Флешка»</h3>
-            <ul class="card__bread mb_15">
-              <li class="card__bread-item">HTML</li>
-              <li class="card__bread-item">CSS</li>
-              <li class="card__bread-item">JS</li>              
+        <li class="card__slave">        
+          <img class="card__pic card__pic_slave" src="./images/portfolio/work_03.jpg" alt="Сайт «Флешка»">
+          <article class="card__slave-article">
+            <h3 class="card__slave-title">Сайт «Флешка»</h3>
+            <ul class="card__slave-bread">
+              <li class="card__slave-bread-item">HTML</li>
+              <li class="card__slave-bread-item">CSS</li>
+              <li class="card__slave-bread-item">JS</li>              
             </ul>
-            <div class="button-box mb_25">
-              <a class="button button__main button__main_gosite" href="#">Посмотреть сайт</a>
-              <a class="button button__simple button__simple_github" href="#">GitHub</a>              
+            <div class="card__btn-box">
+              <a class="card__btn card__btn_main card__btn_main_gosite" href="#">Посмотреть сайт</a>
+              <a class="card__btn card__btn_simple card__btn_simple_github" href="#">GitHub</a>              
             </div>
-            <p class="paragraph">Лендинг для компании срочных услуг по аварийному вскрытию замков</p>
+            <p class="card__master-description">Лендинг для компании, производящей оригинальные флеш-накопители</p>
           </article>
         </li>
 
-        <li class="card__item card__item_wide">        
-          <img class="card__pic card__pic_wide" src="./images/portfolio/work_04.jpg" alt="Учебный сайт Skillbox «Blanchard»">
-          <article class="card__info-wide">
-            <h3 class="card__title">Учебный сайт Skillbox «Blanchard»</h3>
-            <ul class="card__bread">
-              <li class="card__bread-item">HTML</li>
-              <li class="card__bread-item">CSS</li>
-              <li class="card__bread-item">JS</li>              
+        <li class="card__full">        
+          <img class="card__pic card__pic_full" src="./images/portfolio/work_04.jpg" alt="Учебный сайт Skillbox «Blanchard»">
+          <article class="card__full-article">
+            <h3 class="card__full-title">Учебный сайт Skillbox «Blanchard»</h3>
+            <ul class="card__full-bread">
+              <li class="card__full-bread-item">HTML</li>
+              <li class="card__full-bread-item">CSS</li>
+              <li class="card__full-bread-item">JS</li>              
             </ul>
           </article>
-          <div class="button-box">
-            <a class="button button__main button__main_gosite" href="#">Посмотреть сайт</a>
-            <a class="button button__simple button__simple_github" href="#">GitHub</a>              
+          <div class="card__btn-box">
+            <a class="card__btn card__btn_main card__btn_main_gosite" href="#">Посмотреть сайт</a>
+            <a class="card__btn card__btn_simple card__btn_simple_github" href="#">GitHub</a>              
           </div>
         </li>
 
-        <li class="card__item card__item_big">        
-          <img class="card__pic card__pic_big" src="./images/portfolio/work_05.jpg" alt="Проект Яндекс.Практикум «Как эффективно учиться»">
-          <article class="card__info-big">
-            <h3 class="card__title mb_10">Проект Яндекс.Практикум «Как эффективно учиться»</h3>
-            <ul class="card__bread mb_10">
-              <li class="card__bread-item">HTML</li>
-              <li class="card__bread-item">CSS</li>              
+        <li class="card__tall">        
+          <img class="card__pic card__pic_tall" src="./images/portfolio/work_05.jpg" alt="Проект Яндекс.Практикум «Как эффективно учиться»">
+          <article class="card__tall-article">
+            <h3 class="card__tall-title">Проект Яндекс.Практикум «Как эффективно учиться»</h3>
+            <ul class="card__tall-bread">
+              <li class="card__tall-bread-item">HTML</li>
+              <li class="card__tall-bread-item">CSS</li>              
             </ul>
-            <div class="button-box mb_25">
-              <a class="button button__main button__main_gosite" href="#">Посмотреть сайт</a>
-              <a class="button button__simple button__simple_github" href="#">GitHub</a>              
+            <div class="card__btn-box">
+              <a class="card__btn card__btn_main card__btn_main_gosite" href="#">Посмотреть сайт</a>
+              <a class="card__btn card__btn_simple card__btn_simple_github" href="#">GitHub</a>              
             </div>
-            <p class="paragraph">Первый проект, реализованный в ходе обучения курса Яндекс. При создании проекта была изучена технология БЭМ, которая использовалась во всех последующих созданных проектах.</p>
+            <p class="card__tall-description">Первый проект, реализованный в ходе обучения курса Яндекс. При создании проекта была изучена технология БЭМ, которая использовалась во всех последующих созданных проектах.</p>
           </article>
         </li>
         
-        <li class="card__item card__item_medium">        
-          <img class="card__pic card__pic_medium" src="./images/portfolio/work_06.jpg" alt="Сайт «IRINA-NAILS»">
-          <article class="card__info-medium">
-            <h3 class="card__title">Сайт «IRINA-NAILS»</h3>
-            <p class="paragraph mb_15">Лендинг для частного мастера </p>
-            <ul class="card__bread mb_20">
-              <li class="card__bread-item">HTML</li>
-              <li class="card__bread-item">CSS</li>
-              <li class="card__bread-item">JS</li>              
+        <li class="card__wide">        
+          <img class="card__pic card__pic_wide" src="./images/portfolio/work_06.jpg" alt="Сайт «IRINA-NAILS»">
+          <article class="card__wide-article">
+            <h3 class="card__wide-title">Сайт «IRINA-NAILS»</h3>
+            <p class="card__wide-description">Лендинг для частного мастера </p>
+            <ul class="card__wide-bread">
+              <li class="card__wide-bread-item">HTML</li>
+              <li class="card__wide-bread-item">CSS</li>
+              <li class="card__wide-bread-item">JS</li>              
             </ul>
-            <div class="button-box">
-              <a class="button button__main button__main_gosite" href="#">Посмотреть сайт</a>
-              <a class="button button__simple button__simple_github" href="#">GitHub</a>
-              <a class="button button__simple button__simple_figma" href="#">Figma</a>
-            </div>           
+            <div class="card__btn-box">
+              <a class="card__btn card__btn_main card__btn_main_gosite" href="#">Посмотреть сайт</a>
+              <a class="card__btn card__btn_simple card__btn_simple_github" href="#">GitHub</a>
+              <a class="card__btn card__btn_simple card__btn_simple_figma" href="#">Figma</a>
+            </div>
           </article>
         </li>
 
@@ -153,59 +157,63 @@
 
     </section>
 
-    <section class="resume">
+    <section class="resume" id="resume">
 
       <h2 class="subtitle">Резюме</h2>
 
       <article class="resume__hero">
-        <h3 class="title title_short">Хмелев Артем Юрьевич, 02.03.1980 (лет: 42<!-- Код JS -->), Веб-разработчик</h3>
+        <h3 class="resume__title title ">Хмелев Артем Юрьевич, 02.03.1980 (лет: 42<!-- Код JS -->), Веб-разработчик</h3>
         <img class="resume__image" src="./images/resume.jpg" alt="Артем Хмелев">
       </article>
 
-      <ul class="resume__list mb_50">
+      <ul class="resume__list">
         <li class="resume__list-item">
           <h3 class="resume__subtitle">Опыт работы</h3>
-          <p class="resume__paragraph paragraph">Фриланс, 2013 — настоящее время. Работа по различным заказам в сфере графического дизайна, веб-дизайна и HTML/CSS-верстки. Выполнил более тысячи заказов в качестве фрилансера, - включая дизайн многостраничных сайтов и сайтов-визиток под ключ. Работал на постоянной основе с несколькими юридическими лицами. До 2013 года работал в сфере HR.</p>
+          <p class="resume__dscription">Фриланс, 2013 — настоящее время. Работа по различным заказам в сфере графического дизайна, веб-дизайна и HTML/CSS-верстки. Выполнил более тысячи заказов в качестве фрилансера, - включая дизайн многостраничных сайтов и сайтов-визиток под ключ. Работал на постоянной основе с несколькими юридическими лицами. До 2013 года работал в сфере HR.</p>
         </li>
         <li class="resume__list-item">
           <h3 class="resume__subtitle">Ключевые навыки</h3>
-          <p class="resume__paragraph paragraph mb_35"><span class="strong">HTML/CSS (VSC), JavaScript</span> (начинающий уровень)</p>
-          <p class="resume__paragraph paragraph mb_35">HTML/CSS (VSC), JavaScript (начинающий уровень)</p>
-          <p class="resume__paragraph paragraph">HTML/CSS (VSC), JavaScript (начинающий уровень)</p>
+          <p class="resume__dscription">
+            Figma, Photoshop, Illustrator, InDesign<br>
+            HTML/CSS (VSC), JavaScript (начинающий уровень)<br>
+            В работе также использую популярные онлайн-сервисы, плагины, фреймворки
+          </p>
         </li>
         <li class="resume__list-item">
           <h3 class="resume__subtitle">Образование</h3>
-          <p class="resume__paragraph paragraph mb_35">Высшее экономическое (СПбГУЭиФ, 2003), <span class="strong">в период 2021-2022 обучался на платформах Skillbox и Яндекс.Практикум по направлению - Веб-разработчик (Frontend).</span> Также прошел обучение по профессиональной переподготовке в Академии ЛИМТУ на кафедре компьютерного дизайна в 2012 году</p>          
+          <p class="resume__dscription">Высшее экономическое (СПбГУЭиФ, 2003), в период 2021-2022 обучался на платформах Skillbox и Яндекс.Практикум по направлению - Веб-разработчик (Frontend). Также прошел обучение по профессиональной переподготовке в Академии ЛИМТУ на кафедре компьютерного дизайна в 2012 году</p>       
         </li>
         <li class="resume__list-item">
           <h3 class="resume__subtitle">Дополнительная информация</h3>
-          <p class="resume__paragraph paragraph">Не имею вредных привычек, занимаюсь спортом. Наличие собственного ИП, - могу работать по договорам ГПХ без социальных обязательств и дополнительных налогов со стороны работодателя. Имеются современные средства производства и связи, а также необходимые навыки для удаленной работы.</p>
+          <p class="resume__dscription">Не имею вредных привычек, занимаюсь спортом. Наличие собственного ИП, - могу работать по договорам ГПХ без социальных обязательств и дополнительных налогов со стороны работодателя. Имеются современные средства производства и связи, а также необходимые навыки для удаленной работы.</p>
         </li>
       </ul>
 
-      <div class="button-box">
-        <a class="button button__main button__main_download" download="./download/resume.pdf">Резюме в PDF</a>
-        <a class="button button__simple button__simple_hh" href="#">Резюме на hh.ru</a>
-        <a class="button button__simple button__simple_trudvsem" href="#">Резюме на trudvsem.ru</a>
-        <a class="button button__simple button__simple_superjob" href="#">Резюме на superjob.ru</a>
+      <div class="resume__btn-box">
+        <a class="resume__btn resume__btn__main resume__btn_main_download" download="./download/resume.pdf">Резюме в PDF</a>
+        <a class="resume__btn resume__btn__simple resume__btn_simple_hh" href="#">Резюме на hh.ru</a>
+        <a class="resume__btn resume__btn__simple resume__btn_simple_trudvsem" href="#">Резюме на trudvsem.ru</a>
+        <a class="resume__btn resume__btn__simple resume__btn_simple_superjob" href="#">Резюме на superjob.ru</a>
       </div>           
 
     </section>
 
-    <section class="contact">
+    <section class="contact" id="contact">
       <h2 class="subtitle">Контакты</h2>
-      <div class="contact__hero">
-        <h3 class="title title_long mb_55">Сайт-резюме Хмелёва Артёма, соискателя по профессии «Веб-мастер»</h3>
+      <article class="contact__hero">
+        <h3 class="contact__title title">Сайт-резюме Хмелёва Артёма, соискателя по профессии «Веб-мастер»</h3>
         <div class="contact__container">
-          <a class="contact__phone mb_40" href="tel:+79312079086">+7 931 207 90 86</a>
-          <div class="contact__button-box button-box mb_100">
-            <a class="button button__simple button__simple_contact_telegram" href="#">Связаться по Telegram</a>
-            <a class="button button__simple button__simple_contact_whatsup" href="#">Связаться по WhatsApp</a>
+          <p class="contact__phone">+7 931 207 90 86</p>
+          <a class="contact__phone-mobile" href="tel:+79312079086">+7 931 207 90 86</a>
+          <div class="contact__btn-box">
+            <a class="contact_btn contact__btn_simple contact__btn_simple_telegram" href="#">Связаться по Telegram</a>
+            <a class="contact_btn contact__btn_simple contact__btn_simple_whatsup" href="#">Связаться по WhatsApp</a>
           </div>
-          <a class="contact__mail mb_60" href="mailto:artem0203@yandex.ru">artem0203@yandex.ru</a>
-          <p class="paragraph">Готов к удаленной работе, офисные вакансии рассматриваю только в пределах Санкт-Петербурга и Всеволожского района Ленинградской области</p> 
+          <a class="contact__mail" href="mailto:artem0203@yandex.ru">artem0203@yandex.ru</a>
+          <p class="contact__description">Готов к удаленной работе, офисные вакансии рассматриваю только в пределах Санкт-Петербурга и Всеволожского района Ленинградской области</p> 
         </div>
         <img class="contact__image" src="./images/contact.jpg" alt="Артем Хмелев">
+      </article>
     </section>
 
   </main>
