@@ -13,18 +13,23 @@
   <link rel="stylesheet" href="./pages/index.css">
 </head>
 <body>
-  <div class="root">
+  <div class="root" id="root">
 
-    <header class="header" id="header">
-      <img class="header__logo" src="./images/logo.svg" alt="Логотип Артем Хмелев">
-      <nav class="header__links">
-        <a class="header__link" href="#portfolio">Портфолио</a>
-        <a class="header__link" href="#resume">Резюме</a>
-        <a class="header__link" href="#contact">Контакты</a>
-      </nav>
+    <header class="header" >
+      <div class="header__container">
+        <a class="header__logo" href="#root"></a>
+        <nav class="header__links">
+          <a class="header__link" href="#portfolio">Портфолио</a>
+          <a class="header__link" href="#resume">Резюме</a>
+          <a class="header__link" href="#contact">Контакты</a>
+        </nav>
+        <button class="header__burger">
+          <span class="header__burger-line"></span>
+        </button>
+      </div>
     </header>
 
-    <main>
+    <main class="main">
 
       <section class="hero">
         <h1 class="hero__title title">Сайт-резюме Хмелёва Артёма, соискателя по профессии «Веб-мастер»</h1>
@@ -222,7 +227,7 @@
     <footer class="footer">
       <div class="footer__container">
         <p class="footer__copyright">Все права защищены © 2023<!-- Код JS --> Хмелёв Артём</p>
-        <a class="footer__up" href="#header"></a>
+        <a class="footer__up" href="#root">fdfdf</a>
       </div>
     </footer>
 

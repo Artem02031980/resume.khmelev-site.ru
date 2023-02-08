@@ -4,14 +4,38 @@
 @import url(../vendor/fonts/oswald.css);
 @import url(../vendor/variables.css);
 
+/*stop-scroll*/
+@import url(../blocks/stop-scroll/stop-scroll.css);
+
 /* root */
 @import url(../blocks/root/root.css);
 
 /*header*/
 @import url(../blocks/header/header.css);
+@import url(../blocks/header/_sticky/header_sticky.css);
+
+@import url(../blocks/header/__container/header__container.css);
+
 @import url(../blocks/header/__logo/header__logo.css);
+
+@import url(../blocks/header/__links/header__links.css);
+@import url(../blocks/header/__links/_visible/header__links_visible.css);
+@import url(../blocks/header/__link/header__link.css);
+
+@import url(../blocks/header/__burger/header__burger.css);
+@import url(../blocks/header/__burger/_active/header__burger_active.css);
+@import url(../blocks/header/__burger-line/header__burger-line.css);
+
+/*main*/
+@import url(../blocks/main/main.css);
 
 /*footer*/
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__copyright/footer__copyright.css);
+
+
+
+
+
+
 

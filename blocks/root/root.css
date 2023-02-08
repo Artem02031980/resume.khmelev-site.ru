@@ -6,8 +6,7 @@
   -moz-text-size-adjust: 100%;
   -moz-osx-font-smoothing: grayscale;
   text-rendering: optimizeLegibility;
-  color: var(--color-main);
-  background-color: var(--color-white);
+  color: var(--color-dark);
   box-sizing: border-box;
   position: relative;
 }

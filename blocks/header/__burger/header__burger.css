@@ -1,0 +1,36 @@
+.header__burger {
+  display: none;
+  position: relative;
+  width: 25px;
+  height: 20px;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  background-color: transparent;
+}
+
+.header__burger::before,
+.header__burger::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  height: 3px;
+  background-color: var(--color-green);
+  transition: transform .3s ease-in-out, top .3s ease-in-out, bottom .3s ease-in-out;
+}
+
+.header__burger::before {
+  top: 0;
+  width: 100%;
+}
+
+.header__burger::after {
+  bottom: 0;
+  width: 100%;
+}
+
+@media (max-width: 743.98px) {
+  .header__burger {
+    display: block;
+  }
+}
