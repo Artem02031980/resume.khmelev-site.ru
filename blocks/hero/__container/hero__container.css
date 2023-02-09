@@ -1,0 +1,30 @@
+.hero__container{
+  margin-left: 75px;
+  max-width: 575px;
+}
+
+@media (max-width: 1280px) {
+  .hero__container {
+    margin-left: 40px;
+    max-width: 410px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .hero__container {
+    margin-left: 0;
+    max-width: 325px;
+  }
+}
+
+@media (max-width: 744px) {
+  .hero__container {
+    max-width: 220px;
+  }
+}
+
+@media (max-width: 599.98px) {
+  .hero__container {
+    max-width: 100%;
+  }
+}

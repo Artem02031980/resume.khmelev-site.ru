@@ -1,0 +1,18 @@
+.hero__btn_simple_telegram {
+  background-image: url(hero__btn_simple_telegram.svg);
+  background-repeat: no-repeat;
+  background-position: center left 18px;
+  background-size: 20px 17px;
+  transition: background-image .3s ease;
+}
+
+.hero__btn_simple_telegram:hover {
+  background-image: url(hero__btn_simple_telegram-hover.svg);
+}
+
+@media (max-width: 1024px) {
+  .hero__btn_simple_telegram {
+    background-position: center left 14px;
+    background-size: 17px 14px;
+  }
+}

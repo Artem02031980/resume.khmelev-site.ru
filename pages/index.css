@@ -29,13 +29,20 @@
 /*main*/
 @import url(../blocks/main/main.css);
 
-/*footer*/
-@import url(../blocks/footer/footer.css);
-@import url(../blocks/footer/__copyright/footer__copyright.css);
+/*hero*/
+@import url(../blocks/hero/hero.css);
+@import url(../blocks/hero/__title/hero__title.css);
+@import url(../blocks/hero/__image/hero__image.css);
+@import url(../blocks/hero/__container/hero__container.css);
+@import url(../blocks/hero/__text-description/hero__text-description.css);
+@import url(../blocks/hero/__text-requests/hero__text-requests.css);
+@import url(../blocks/hero/__vacancy/hero__vacancy.css);
+@import url(../blocks/hero/__vacancy-item/hero__vacancy-item.css);
 
-
-
-
-
-
+@import url(../blocks/hero/__btn-box/hero__btn-box.css);
+@import url(../blocks/hero/__btn/hero__btn.css);
+@import url(../blocks/hero/__btn/_main/hero__btn_main.css);
+@import url(../blocks/hero/__btn/_main/hero__btn_main_mail.css);
+@import url(../blocks/hero/__btn/_simple/hero__btn_simple.css);
+@import url(../blocks/hero/__btn/_simple/hero__btn_simple_telegram.css);
 

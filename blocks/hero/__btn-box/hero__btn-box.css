@@ -1,0 +1,14 @@
+.hero__btn-box {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+@media (max-width: 1024px) {
+  .hero__btn-box {
+    max-width: 200px;
+    gap: 8px;
+  }
+}
+
+

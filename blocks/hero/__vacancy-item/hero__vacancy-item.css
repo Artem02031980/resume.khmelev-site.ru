@@ -1,0 +1,27 @@
+.hero__vacancy-item {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 1.5;
+}
+
+.hero__vacancy-item:not(:last-child)::after {
+  margin-left: 5px;
+  margin-right: 5px;
+  font-weight: 400;
+  color: var(--color-grey);
+  content: '/';
+}
+
+@media (max-width: 1024px) {
+  .hero__vacancy-item {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 744px) {
+  .hero__vacancy-item {
+    font-size: 14px;
+    line-height: 1.4;
+  }
+}
+
