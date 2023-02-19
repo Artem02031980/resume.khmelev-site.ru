@@ -1,0 +1,25 @@
+.card__slave-article {
+  background-color: var(--color-light);
+  padding: 25px 50px 35px 40px;
+}
+
+@media (max-width: 1280px) {
+  .card__slave-article {
+    padding-left: 30px;
+    padding-right: 40px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .card__slave-article {
+    padding-left: 25px;
+    padding-right: 35px;
+  }
+}
+
+@media (max-width: 599.98px) {
+  .card__slave-article {
+    padding-left: 20px;
+    padding-right: 30px;
+  }
+}

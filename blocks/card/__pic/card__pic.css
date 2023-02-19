@@ -1,0 +1,8 @@
+.card__pic {
+  object-fit: cover;
+  object-position: center;
+  filter: grayscale(100%);
+  transition: filter .7s ease-in-out;
+}
+
+

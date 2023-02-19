@@ -1,0 +1,24 @@
+.card__tall-description {
+  padding: 0;
+  margin: 25px 0 0 0;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+@media (max-width: 1024px) {
+  .card__tall-description {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 744px) {
+  .card__tall-description {
+    margin-top: 10px;
+  }
+}
+
+@media (max-width: 599.98px) {
+  .card__tall-description {
+    max-width: 400px;
+  }
+}

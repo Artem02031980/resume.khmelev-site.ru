@@ -1,0 +1,11 @@
+.card__btn-box {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+@media (max-width: 1024px) {
+  .card__btn-box {
+    gap: 8px;
+  }
+}

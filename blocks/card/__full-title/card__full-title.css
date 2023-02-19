@@ -1,0 +1,16 @@
+.card__full-title {
+  margin: 0;
+  padding: 0;
+  font-family: 'Oswald';
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.5;
+  color: var(--color-white);
+}
+
+@media (max-width: 744px) {
+  .card__full-title {
+    font-size: 16px;
+    line-height: 1.3;
+  }
+}

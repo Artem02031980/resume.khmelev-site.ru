@@ -1,0 +1,21 @@
+.card__wide {
+  position: relative;
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.card__wide:hover .card__pic {
+  filter: none;
+}
+
+@media (max-width: 744px) {
+  .card__wide {
+    min-height: 300px;
+  }
+}
+
+@media (max-width: 599.98px) {
+  .card__wide {
+    min-height: 400px;
+  }
+}

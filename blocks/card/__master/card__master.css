@@ -1,0 +1,22 @@
+.card__master {
+  grid-row: span 2;
+  position: relative;
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.card__master:hover .card__pic {
+  filter: none;
+}
+
+@media (max-width: 744px) {
+  .card__master {
+    min-height: 450px;
+  }
+}
+
+@media (max-width: 599.98px) {
+  .card__master {
+    min-height: 520px;
+  }
+}

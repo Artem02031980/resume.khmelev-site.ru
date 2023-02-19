@@ -1,0 +1,17 @@
+.card__btn_simple_github {
+  background-image: url(card__btn_simple_github.svg);
+  background-repeat: no-repeat;
+  background-position: center left 18px;
+  background-size: 20px 20px;
+  transition: background-image .3s ease;
+}
+
+.card__btn_simple_github:hover {
+  background-image: url(card__btn_simple_github-hover.svg);
+}
+
+@media (max-width: 1024px) {
+  .card__btn_simple_github {
+    background-size: 15px 15px;
+  }
+}

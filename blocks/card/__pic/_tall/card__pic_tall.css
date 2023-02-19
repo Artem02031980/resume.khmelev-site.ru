@@ -1,0 +1,36 @@
+.card__pic_tall {
+  max-width: 250px;
+}
+
+@media (max-width: 1440px) {
+  .card__pic_tall {
+    max-width: 200px;
+  }
+}
+
+@media (max-width: 1280px) {
+  .card__pic_tall {
+    max-width: 100px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .card__pic_tall {
+    max-width: 100%;
+    max-height: 200px;
+  }
+}
+
+@media (max-width: 744px) {
+  .card__pic_tall {
+    max-width: 200px;
+    max-height: 100%;
+  }
+}
+
+@media (max-width: 599.98px) {
+  .card__pic_tall {
+    max-width: 100%;
+    max-height: 175px;
+  }
+}

@@ -29,6 +29,9 @@
 /*main*/
 @import url(../blocks/main/main.css);
 
+/*title*/
+@import url(../blocks/title/title.css);
+
 /*hero*/
 @import url(../blocks/hero/hero.css);
 @import url(../blocks/hero/__title/hero__title.css);
@@ -45,4 +48,60 @@
 @import url(../blocks/hero/__btn/_main/hero__btn_main_mail.css);
 @import url(../blocks/hero/__btn/_simple/hero__btn_simple.css);
 @import url(../blocks/hero/__btn/_simple/hero__btn_simple_telegram.css);
+
+/*portfolio*/
+@import url(../blocks/portfolio/portfolio.css);
+
+/*card*/
+@import url(../blocks/card/card.css);
+
+@import url(../blocks/card/__btn-box/card__btn-box.css);
+@import url(../blocks/card/__btn/card__btn.css);
+@import url(../blocks/card/__btn/_main/card__btn_main.css);
+@import url(../blocks/card/__btn/_main/card__btn_main_gosite.css);
+@import url(../blocks/card/__btn/_simple/card__btn_simple.css);
+@import url(../blocks/card/__btn/_simple/card__btn_simple_github.css);
+@import url(../blocks/card/__btn/_simple/card__btn_simple_figma.css);
+
+@import url(../blocks/card/__pic/card__pic.css);
+@import url(../blocks/card/__pic/_master/card__pic_master.css);
+@import url(../blocks/card/__pic/_slave/card__pic_slave.css);
+@import url(../blocks/card/__pic/_full/card__pic_full.css);
+@import url(../blocks/card/__pic/_tall/card__pic_tall.css);
+@import url(../blocks/card/__pic/_wide/card__pic_wide.css);
+
+@import url(../blocks/card/__master/card__master.css);
+@import url(../blocks/card/__master-article/card__master-article.css);
+@import url(../blocks/card/__master-title/card__master-title.css);
+@import url(../blocks/card/__master-bread/card__master-bread.css);
+@import url(../blocks/card/__master-bread-item/card__master-bread-item.css);
+@import url(../blocks/card/__master-description/card__master-description.css);
+
+@import url(../blocks/card/__slave/card__slave.css);
+@import url(../blocks/card/__slave-article/card__slave-article.css);
+@import url(../blocks/card/__slave-title/card__slave-title.css);
+@import url(../blocks/card/__slave-bread/card__slave-bread.css);
+@import url(../blocks/card/__slave-bread-item/card__slave-bread-item.css);
+@import url(../blocks/card/__slave-description/card__slave-description.css);
+
+@import url(../blocks/card/__full/card__full.css);
+@import url(../blocks/card/__full-article/card__full-article.css);
+@import url(../blocks/card/__full-title/card__full-title.css);
+@import url(../blocks/card/__full-bread/card__full-bread.css);
+@import url(../blocks/card/__full-bread-item/card__full-bread-item.css);
+
+@import url(../blocks/card/__tall/card__tall.css);
+@import url(../blocks/card/__tall-article/card__tall-article.css);
+@import url(../blocks/card/__tall-title/card__tall-title.css);
+@import url(../blocks/card/__tall-bread/card__tall-bread.css);
+@import url(../blocks/card/__tall-bread-item/card__tall-bread-item.css);
+@import url(../blocks/card/__tall-description/card__tall-description.css);
+
+@import url(../blocks/card/__wide/card__wide.css);
+@import url(../blocks/card/__wide-article/card__wide-article.css);
+@import url(../blocks/card/__wide-title/card__wide-title.css);
+@import url(../blocks/card/__wide-description/card__wide-description.css);
+@import url(../blocks/card/__wide-bread/card__wide-bread.css);
+@import url(../blocks/card/__wide-bread-item/card__wide-bread-item.css);
+
 

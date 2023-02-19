@@ -1,0 +1,13 @@
+.card__btn_main_gosite {
+  background-image: url(card__btn_main_gosite.svg);
+  background-repeat: no-repeat;
+  background-position: center left 20px;
+  background-size: 20px 20px;
+}
+
+@media (max-width: 1024px) {
+  .card__btn_main_gosite {
+    background-size: 15px 15px;
+  }
+}
+

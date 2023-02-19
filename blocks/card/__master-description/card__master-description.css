@@ -1,0 +1,19 @@
+.card__master-description {
+  padding: 0;
+  margin: 20px 0 0 0;
+  font-size: 16px;
+  line-height: 1.5;
+  color:var(--color-white);
+}
+
+@media (max-width: 1024px) {
+  .card__master-description {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 599.98px) {
+  .card__master-description {
+    max-width: 400px;
+  }
+}

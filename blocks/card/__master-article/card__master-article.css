@@ -1,0 +1,25 @@
+.card__master-article {
+  background-color: var(--color-dark-transparent);
+  padding: 20px 50px 50px 40px;
+}
+
+@media (max-width: 1280px) {
+  .card__master-article {
+    padding-left: 30px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .card__master-article {
+    padding-left: 25px;
+    padding-right: 35px;
+  }
+}
+
+@media (max-width: 744px) {
+  .card__master-article {
+    padding-left: 20px;
+    padding-right: 30px;
+    padding-bottom: 40px;
+  }
+}
