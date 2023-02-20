@@ -1,4 +1,4 @@
-.hero__vacancy {
+.hero__bread {
   display: flex;
   flex-wrap: wrap;
   margin: 0 0 40px 0;
@@ -7,19 +7,19 @@
 }
 
 @media (max-width: 1280px) {
-  .hero__vacancy {
+  .hero__bread {
     margin-bottom: 20px;
   }
 }
 
 @media (max-width: 1024px) {
-  .hero__vacancy {
+  .hero__bread {
     margin-bottom: 15px;
   }
 }
 
 @media (max-width: 744px) {
-  .hero__vacancy {
+  .hero__bread {
     margin-bottom: 20px;
   }
 }

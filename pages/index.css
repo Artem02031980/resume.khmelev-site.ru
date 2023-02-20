@@ -37,10 +37,11 @@
 @import url(../blocks/hero/__title/hero__title.css);
 @import url(../blocks/hero/__image/hero__image.css);
 @import url(../blocks/hero/__container/hero__container.css);
-@import url(../blocks/hero/__text-description/hero__text-description.css);
-@import url(../blocks/hero/__text-requests/hero__text-requests.css);
-@import url(../blocks/hero/__vacancy/hero__vacancy.css);
-@import url(../blocks/hero/__vacancy-item/hero__vacancy-item.css);
+@import url(../blocks/hero/__description/hero__description.css);
+@import url(../blocks/hero/__bread-title/hero__bread-title.css);
+@import url(../blocks/hero/__bread/hero__bread.css);
+@import url(../blocks/hero/__bread-item/hero__bread-item.css);
+
 
 @import url(../blocks/hero/__btn-box/hero__btn-box.css);
 @import url(../blocks/hero/__btn/hero__btn.css);
