@@ -1,0 +1,47 @@
+.resume__title {
+  padding: 0;
+  margin: 0;
+  font-family: 'Oswald';
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 1.4;
+  text-transform: uppercase;
+  max-width: 640px;
+}
+
+@media (max-width: 1440px) {
+  .resume__title {
+    font-size: 48px;
+    line-height: 1.3;
+    max-width: 480px;
+  }
+}
+
+@media (max-width: 1280px) {
+  .resume__title {
+    font-size: 36px;
+    max-width: 360px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .resume__title {
+    font-size: 32px;
+    max-width: 320px;
+  }
+}
+
+@media (max-width: 744px) {
+  .resume__title {
+    font-size: 24px;
+    max-width: 240px;
+  }
+}
+
+@media (max-width: 599.98px) {
+  .resume__title {
+    font-size: 20px;
+    max-width: 200px;
+    margin-bottom: 20px;
+  }
+}

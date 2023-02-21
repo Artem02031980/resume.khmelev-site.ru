@@ -1,0 +1,13 @@
+.resume__btn_main_download {
+  background-image: url(resume__btn_main_download.svg);
+  background-repeat: no-repeat;
+  background-position: center left 20px;
+  background-size: 20px 20px;
+}
+
+@media (max-width: 1024px) {
+  .resume__btn_main_download {
+    background-position: center left 15px;
+    background-size: 15px 15px;
+  }
+}

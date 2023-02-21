@@ -1,6 +1,5 @@
-//глобальные переменные
+//повторяющиеся переменные
 const header = document.querySelector('.header');
-const hero = document.querySelector('.hero');
 
 //плавный скролл
 document.querySelectorAll('a[href^="#"').forEach(link => {
@@ -25,6 +24,8 @@ document.querySelectorAll('a[href^="#"').forEach(link => {
 });
 
 //появление стики-хедера при скролле
+const hero = document.querySelector('.hero');
+
 document.addEventListener('DOMContentLoaded', () => {
 
   window.addEventListener('scroll', () => {
@@ -61,3 +62,13 @@ headerLink.forEach(el => {
     headerLinks.classList.remove('header__links_visible');
   });
 });
+
+//актуальный возраст
+const age = document.getElementById('age');
+
+let birth = new Date(1980, 2, 2),
+    year = birth.getFullYear(),
+    today = new Date();
+let writeAge = today.getFullYear() - year - (today.getTime() < birth.setFullYear(year));
+
+age.innerHTML = writeAge;

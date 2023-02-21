@@ -170,38 +170,44 @@
         <h2 class="title">Резюме</h2>
 
         <article class="resume__hero">
-          <h3 class="resume__title">Хмелев Артем Юрьевич, 02.03.1980 (лет: 42<!-- Код JS -->), Веб-разработчик</h3>
+          <h3 class="resume__title">Хмелев Артем Юрьевич, 02.03.1980 (лет: <span id="age"></span>), Веб-мастер</h3>
           <img class="resume__image" src="./images/resume.jpg" alt="Артем Хмелев">
         </article>
 
-        <ul class="resume__list">
-          <li class="resume__list-item">
-            <h3 class="resume__subtitle">Опыт работы</h3>
-            <p class="resume__dscription">Фриланс, 2013 — настоящее время. Работа по различным заказам в сфере графического дизайна, веб-дизайна и HTML/CSS-верстки. Выполнил более тысячи заказов в качестве фрилансера, - включая дизайн многостраничных сайтов и сайтов-визиток под ключ. Работал на постоянной основе с несколькими юридическими лицами. До 2013 года работал в сфере HR.</p>
+        <ul class="list">
+          <li class="list__item">
+            <h3 class="list__title">Опыт работы</h3>
+            <div class="list__description">
+              <p class="list__paragraph">Фриланс, 2013 — настоящее время. Работа по различным заказам в сфере графического дизайна, веб-дизайна и HTML/CSS-верстки. Выполнил более тысячи заказов в качестве фрилансера, - включая дизайн многостраничных сайтов и сайтов-визиток под ключ. Работал на постоянной основе с несколькими юридическими лицами. До 2013 года работал в сфере HR.</p>
+            </div>
           </li>
-          <li class="resume__list-item">
-            <h3 class="resume__subtitle">Ключевые навыки</h3>
-            <p class="resume__dscription">
-              Figma, Photoshop, Illustrator, InDesign<br>
-              HTML/CSS (VSC), JavaScript (начинающий уровень)<br>
-              В работе также использую популярные онлайн-сервисы, плагины, фреймворки
-            </p>
+          <li class="list__item">
+            <h3 class="list__title">Ключевые навыки</h3>
+            <div class="list__description">
+              <p class="list__paragraph">Figma, Photoshop, Illustrator, InDesign;</p>
+              <p class="list__paragraph">HTML/CSS (VSC), JavaScript (начинающий уровень), Git;</p>
+              <p class="list__paragraph">В работе также использую популярные онлайн-сервисы, плагины, фреймворки.</p>
+            </div>
           </li>
-          <li class="resume__list-item">
-            <h3 class="resume__subtitle">Образование</h3>
-            <p class="resume__dscription">Высшее экономическое (СПбГУЭиФ, 2003), в период 2021-2022 обучался на платформах Skillbox и Яндекс.Практикум по направлению - Веб-разработчик (Frontend). Также прошел обучение по профессиональной переподготовке в Академии ЛИМТУ на кафедре компьютерного дизайна в 2012 году</p>
+          <li class="list__item">
+            <h3 class="list__title">Образование</h3>
+            <div class="list__description">
+              <p class="list__paragraph">Высшее экономическое (СПбГУЭиФ, 2003), в период 2021-2022 обучался на платформах Skillbox и Яндекс.Практикум по направлению - Веб-разработчик (Frontend). Также прошел обучение по профессиональной переподготовке в Академии ЛИМТУ на кафедре компьютерного дизайна в&nbsp;2012&nbsp;г.</p>
+            </div>
           </li>
-          <li class="resume__list-item">
-            <h3 class="resume__subtitle">Дополнительная информация</h3>
-            <p class="resume__dscription">Не имею вредных привычек, занимаюсь спортом. Наличие собственного ИП, - могу работать по договорам ГПХ без социальных обязательств и дополнительных налогов со стороны работодателя. Имеются современные средства производства и связи, а также необходимые навыки для удаленной работы.</p>
+          <li class="list__item">
+            <h3 class="list__title">Дополнительная информация</h3>
+            <div class="list__description">
+              <p class="list__paragraph">Не имею вредных привычек, занимаюсь спортом. Наличие собственного ИП, - могу работать по договорам ГПХ, с предоставлением первичных бухгалтерских документов. Имеются современные средства производства и связи, а также необходимые навыки для удаленной работы.</p>
+            </div>
           </li>
         </ul>
 
         <div class="resume__btn-box">
-          <a class="resume__btn resume__btn__main resume__btn_main_download" download="./download/resume.pdf">Резюме в PDF</a>
-          <a class="resume__btn resume__btn__simple resume__btn_simple_hh" href="#">Резюме на hh.ru</a>
-          <a class="resume__btn resume__btn__simple resume__btn_simple_trudvsem" href="#">Резюме на trudvsem.ru</a>
-          <a class="resume__btn resume__btn__simple resume__btn_simple_superjob" href="#">Резюме на superjob.ru</a>
+          <a class="resume__btn resume__btn_main resume__btn_main_download" download="./download/resume.pdf">Резюме в PDF</a>
+          <a class="resume__btn resume__btn_simple resume__btn_simple_hh" href="#">Резюме на hh.ru</a>
+          <a class="resume__btn resume__btn_simple resume__btn_simple_trudvsem" href="#">Резюме на trudvsem.ru</a>
+          <a class="resume__btn resume__btn_simple resume__btn_simple_superjob" href="#">Резюме на superjob.ru</a>
         </div>
 
       </section>

@@ -32,27 +32,6 @@
 /*title*/
 @import url(../blocks/title/title.css);
 
-/*hero*/
-@import url(../blocks/hero/hero.css);
-@import url(../blocks/hero/__title/hero__title.css);
-@import url(../blocks/hero/__image/hero__image.css);
-@import url(../blocks/hero/__container/hero__container.css);
-@import url(../blocks/hero/__description/hero__description.css);
-@import url(../blocks/hero/__bread-title/hero__bread-title.css);
-@import url(../blocks/hero/__bread/hero__bread.css);
-@import url(../blocks/hero/__bread-item/hero__bread-item.css);
-
-
-@import url(../blocks/hero/__btn-box/hero__btn-box.css);
-@import url(../blocks/hero/__btn/hero__btn.css);
-@import url(../blocks/hero/__btn/_main/hero__btn_main.css);
-@import url(../blocks/hero/__btn/_main/hero__btn_main_mail.css);
-@import url(../blocks/hero/__btn/_simple/hero__btn_simple.css);
-@import url(../blocks/hero/__btn/_simple/hero__btn_simple_telegram.css);
-
-/*portfolio*/
-@import url(../blocks/portfolio/portfolio.css);
-
 /*card*/
 @import url(../blocks/card/card.css);
 
@@ -105,4 +84,45 @@
 @import url(../blocks/card/__wide-bread/card__wide-bread.css);
 @import url(../blocks/card/__wide-bread-item/card__wide-bread-item.css);
 
+/*list*/
+@import url(../blocks/list/list.css);
+@import url(../blocks/list/__item/list__item.css);
+@import url(../blocks/list/__title/list__title.css);
+@import url(../blocks/list/__description/list__description.css);
+@import url(../blocks/list/__paragraph/list__paragraph.css);
+
+/*hero*/
+@import url(../blocks/hero/hero.css);
+@import url(../blocks/hero/__title/hero__title.css);
+@import url(../blocks/hero/__image/hero__image.css);
+@import url(../blocks/hero/__container/hero__container.css);
+@import url(../blocks/hero/__description/hero__description.css);
+@import url(../blocks/hero/__bread-title/hero__bread-title.css);
+@import url(../blocks/hero/__bread/hero__bread.css);
+@import url(../blocks/hero/__bread-item/hero__bread-item.css);
+
+@import url(../blocks/hero/__btn-box/hero__btn-box.css);
+@import url(../blocks/hero/__btn/hero__btn.css);
+@import url(../blocks/hero/__btn/_main/hero__btn_main.css);
+@import url(../blocks/hero/__btn/_main/hero__btn_main_mail.css);
+@import url(../blocks/hero/__btn/_simple/hero__btn_simple.css);
+@import url(../blocks/hero/__btn/_simple/hero__btn_simple_telegram.css);
+
+/*portfolio*/
+@import url(../blocks/portfolio/portfolio.css);
+
+/*resume*/
+@import url(../blocks/resume/resume.css);
+@import url(../blocks/resume/__hero/resume__hero.css);
+@import url(../blocks/resume/__title/resume__title.css);
+@import url(../blocks/resume/__image/resume__image.css);
+
+@import url(../blocks/resume/__btn-box/resume__btn-box.css);
+@import url(../blocks/resume/__btn/resume__btn.css);
+@import url(../blocks/resume/__btn/_main/resume__btn_main.css);
+@import url(../blocks/resume/__btn/_main/resume__btn_main_download.css);
+@import url(../blocks/resume/__btn/_simple/resume__btn_simple.css);
+@import url(../blocks/resume/__btn/_simple/resume__btn_simple_hh.css);
+@import url(../blocks/resume/__btn/_simple/resume__btn_simple_trudvsem.css);
+@import url(../blocks/resume/__btn/_simple/resume__btn_simple_superjob.css);
 

@@ -1,0 +1,9 @@
+.resume__btn_main {
+  background-color: var(--color-green);
+  color: var(--color-white);
+  transition: background-color .3s ease;
+}
+
+.resume__btn_main:hover {
+  background-color: var(--color-red);
+}
