@@ -1,0 +1,33 @@
+.contact {
+  margin-bottom: 300px;
+}
+
+@media (max-width: 1440px) {
+  .contact {
+    margin-bottom: 260px;
+  }
+}
+
+@media (max-width: 1280px) {
+  .contact {
+    margin-bottom: 200px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .contact {
+    margin-bottom: 150px;
+  }
+}
+
+@media (max-width: 744px) {
+  .contact {
+    margin-bottom: 120px;
+  }
+}
+
+@media (max-width: 599.98px) {
+  .contact {
+    margin-bottom: 100px;
+  }
+}

@@ -1,0 +1,11 @@
+.contact__btn-box {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+@media (max-width: 1024px) {
+  .contact__btn-box {
+    gap: 8px;
+  }
+}

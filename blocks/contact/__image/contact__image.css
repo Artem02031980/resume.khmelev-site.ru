@@ -1,0 +1,48 @@
+.contact__image {
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: -1;
+  width: 700px;
+  height: 950px;
+}
+
+@media (max-width: 1440px) {
+  .contact__image {
+    width: 620px;
+    height: 840px;
+  }
+}
+
+@media (max-width: 1280px) {
+  .contact__image {
+    width: 550px;
+    height: 747px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .contact__image {
+    width: 400px;
+    height: 543px;
+  }
+}
+
+@media (max-width: 744px) {
+  .contact__image {
+    width: 250px;
+    height: 340px;
+  }
+}
+
+@media (max-width: 599.98px) {
+  .contact__image {
+    position: static;
+    width: 100%;
+    height: 100%;
+    max-height: 290px;
+    object-fit: cover;
+    object-position: top;
+  }
+}

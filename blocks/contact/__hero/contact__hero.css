@@ -1,0 +1,23 @@
+.contact__hero {
+  position: relative;
+  padding-top: 75px;
+}
+
+@media (max-width: 1280px) {
+  .contact__hero {
+    padding-top: 35px;
+  }
+}
+
+@media (max-width: 744px) {
+  .contact__hero {
+    padding-top: 15px;
+
+  }
+}
+
+@media (max-width: 599.98px) {
+  .contact__hero {
+    padding-top: 0;
+  }
+}
