@@ -64,11 +64,15 @@ headerLink.forEach(el => {
 });
 
 //актуальный возраст
-const age = document.getElementById('age');
+const currentAge = document.getElementById('currentAge');
 
 let birth = new Date(1980, 2, 2),
     year = birth.getFullYear(),
     today = new Date();
-let writeAge = today.getFullYear() - year - (today.getTime() < birth.setFullYear(year));
 
-age.innerHTML = writeAge;
+currentAge.innerHTML = today.getFullYear() - year - (today.getTime() < birth.setFullYear(year));
+
+
+//актуальный год
+const currentYear = document.getElementById('currentYear');
+currentYear.innerHTML = new Date().getFullYear();
