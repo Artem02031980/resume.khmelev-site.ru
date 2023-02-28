@@ -1,6 +1,6 @@
 .card__tall-article {
   background-color: var(--color-light);
-  padding: 25px 40px;
+  padding: 45px 40px;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;

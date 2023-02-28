@@ -1,4 +1,5 @@
 .resume__btn {
+  cursor: pointer;
   display: inline-block;
   text-decoration: none;
   font-family: 'Oswald';

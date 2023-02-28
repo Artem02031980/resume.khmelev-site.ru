@@ -29,7 +29,7 @@
   width: 100%;
 }
 
-@media (max-width: 743.98px) {
+@media (max-width: 599.98px) {
   .header__burger {
     display: block;
   }

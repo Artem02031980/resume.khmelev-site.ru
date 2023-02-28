@@ -1,6 +1,6 @@
 .hero__container{
   margin-left: 75px;
-  max-width: 575px;
+  max-width: 500px;
 }
 
 @media (max-width: 1280px) {

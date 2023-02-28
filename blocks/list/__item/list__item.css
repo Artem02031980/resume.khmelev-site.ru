@@ -2,14 +2,8 @@
   background-image: url(list__item.svg);
   background-repeat: no-repeat;
   background-position: center right;
-  background-size: 282px 300px;
+  background-size: 176px 200px;
   min-height: 300px;
-}
-
-@media (max-width: 1280px) {
-  .list__item {
-    background-size: 176px 200px;
-  }
 }
 
 @media (max-width: 1024px) {

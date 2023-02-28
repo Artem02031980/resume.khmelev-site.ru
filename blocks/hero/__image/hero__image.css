@@ -1,29 +1,24 @@
 .hero__image {
   display: block;
   position: absolute;
-  top: 40px;
+  top: 125px;
   right: 0;
   z-index: -1;
-  width: 700px;
-  height: 700px;
+  width: 640px;
+  height: 640px;
 }
 
-@media (max-width: 1440px) {
+@media (max-width: 1280px) {
   .hero__image {
+    top: 95px;
     width: 500px;
     height: 500px;
   }
 }
 
-@media (max-width: 1280px) {
-  .hero__image {
-    width: 450px;
-    height: 450px;
-  }
-}
-
 @media (max-width: 1024px) {
   .hero__image {
+    top: 65px;
     width: 350px;
     height: 350px;
   }
@@ -31,6 +26,7 @@
 
 @media (max-width: 744px) {
   .hero__image {
+    top: 45px;
     width: 250px;
     height: 250px;
   }
@@ -44,5 +40,6 @@
     max-height: 290px;
     object-fit: cover;
     object-position: center;
+    margin-bottom: 15px;
   }
 }

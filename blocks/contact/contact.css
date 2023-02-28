@@ -2,12 +2,6 @@
   margin-bottom: 300px;
 }
 
-@media (max-width: 1440px) {
-  .contact {
-    margin-bottom: 260px;
-  }
-}
-
 @media (max-width: 1280px) {
   .contact {
     margin-bottom: 200px;

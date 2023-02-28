@@ -1,11 +1,5 @@
 .card__pic_tall {
-  max-width: 250px;
-}
-
-@media (max-width: 1440px) {
-  .card__pic_tall {
-    max-width: 200px;
-  }
+  max-width: 220px;
 }
 
 @media (max-width: 1280px) {

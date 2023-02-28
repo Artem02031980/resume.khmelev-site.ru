@@ -1,11 +1,5 @@
 .resume {
-  margin-bottom: 150px;
-}
-
-@media (max-width: 1440px) {
-  .resume {
-    margin-bottom: 100px;
-  }
+  margin-bottom: 100px;
 }
 
 @media (max-width: 1280px) {
