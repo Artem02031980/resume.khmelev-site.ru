@@ -45,6 +45,7 @@
 @import url(../blocks/card/__btn/card__btn.css);
 @import url(../blocks/card/__btn/_main/card__btn_main.css);
 @import url(../blocks/card/__btn/_main/card__btn_main_gosite.css);
+@import url(../blocks/card/__btn/_main/card__btn_main_figma.css);
 @import url(../blocks/card/__btn/_simple/card__btn_simple.css);
 @import url(../blocks/card/__btn/_simple/card__btn_simple_github.css);
 @import url(../blocks/card/__btn/_simple/card__btn_simple_figma.css);

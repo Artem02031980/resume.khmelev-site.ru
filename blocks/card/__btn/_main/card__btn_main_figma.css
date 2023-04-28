@@ -1,0 +1,13 @@
+.card__btn_main_figma {
+  background-image: url(card__btn_main_figma.svg);
+  background-repeat: no-repeat;
+  background-position: center left 20px;
+  background-size: 13px 20px;
+}
+
+@media (max-width: 1024px) {
+  .card__btn_main_figma {
+    background-size: 9px 14px;
+  }
+}
+
