@@ -132,6 +132,7 @@
 @import url(../blocks/resume/__btn/_simple/resume__btn_simple_hh.css);
 @import url(../blocks/resume/__btn/_simple/resume__btn_simple_trudvsem.css);
 @import url(../blocks/resume/__btn/_simple/resume__btn_simple_superjob.css);
+@import url(../blocks/resume/__btn/_simple/resume__btn_simple_zarplata.css);
 
 /*contact*/
 @import url(../blocks/contact/contact.css);
