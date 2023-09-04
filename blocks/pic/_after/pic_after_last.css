@@ -1,0 +1,11 @@
+.pic_after_last {
+  margin-bottom: 150px;
+}
+
+@media (max-width: 767.98px) {
+
+  .pic_after_last {
+    margin-bottom: 75px;
+  }
+
+}

@@ -1,0 +1,15 @@
+.page__aside_master {
+  width: 50%;
+}
+
+@media (max-width: 1699.98px) {
+  .page__aside_master {
+    width: 40%;
+  }
+}
+
+@media (max-width: 1399.98px) {
+  .page__aside_master {
+    width: 30%;
+  }
+}

@@ -1,0 +1,9 @@
+.contact__line {
+  width: 10%;
+  margin: 0 auto;
+  padding: 0;
+  height: 0;
+  border: none;
+  border-top: 1px dashed var(--color-grey);
+  margin-bottom: 20px;
+}

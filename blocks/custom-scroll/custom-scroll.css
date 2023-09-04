@@ -1,0 +1,8 @@
+.custom-scroll {
+  max-height: 85%;
+  margin: 0 auto;
+  margin-bottom: 50px;
+  padding: 20px 30px;
+  background-color: var(--color-white);
+  color: var(--color-main);
+}

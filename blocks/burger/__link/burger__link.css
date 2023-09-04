@@ -1,0 +1,13 @@
+.burger__link {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  font-family: 'Roboto+Condensed';
+  font-weight: 400;
+  font-size: 22px;
+  color: var(--color-white);
+}
+
+.burger__link:not(:last-child) {
+  margin-bottom: 5vh;
+}

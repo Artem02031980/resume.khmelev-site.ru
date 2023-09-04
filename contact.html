@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Хмелев Артем | Контакты дизайнера</title>
+  <meta name="keywords" content="Контакты, Санкт-Петербург, UX/UI дизайнер, графический дизайнер, html-верстальщик">
+  <meta name="description" content="Контакты дизайнера в СПб, профиль: UX/UI дизайн, графический дизайн, html-верстка.">
+  <meta name="author" content="Хмелев Артем, artem0203@yandex.ru">
+  <meta name="robots" content="all">
+  <!-- styles -->
+  <link rel="stylesheet" href="https://unpkg.com/simplebar@latest/dist/simplebar.css"/>
+  <link rel="stylesheet" href="./pages/contact.css">
+
+</head>
+<body>
+  <div class="root">
+
+    <div class="burger">
+      <input class="burger__checkbox" type="checkbox" id="checkBurger" >
+      <label for="checkBurger" class="burger__button">
+          <div class="burger__icon"></div>
+      </label>
+      <nav class="burger__nav">
+          <a class="burger__link" href="./index.html">Главная</a>
+          <a class="burger__link" href="./design.html">UX/UI-дизайн</a>
+          <a class="burger__link" href="./graphics.html">Графический дизайн</a>
+          <a class="burger__link" href="./sites.html">HTML-верстка</a>
+          <a class="burger__link" href="./resume.html">Резюме</a>
+          <a class="burger__link burger__link_active" href="./contact.html">Контакты</a>
+      </nav>
+    </div>
+
+    <section class="page">
+
+      <h1 class="visually-hidden">Контакты Хмелева Артема — UI/UX дизайн, графический дизайнер, html/css-верстка</h1>
+
+      <div class="mobile mobile_bg_contact">
+        <article class="mobile__article">
+          <img src="./images/logo-mobile.svg" class="mobile__logo" alt="Логотип Хмелев Артем">
+          <h2 class="title title_mobile">Контакты дизайнера Артёма&nbsp;Хмелёва</h2>
+          <div class="mobile__mes">
+            <a class="mobile__mes-telegram" href="http://t.me/artem0203"></a>
+            <a class="mobile__mes-whatsup" href="https://wa.me/79312079086"></a>
+          </div>
+          <a class="mobile__phone" href="tel:+79312079086">+7 (931) 207-90-86</a>
+          <hr class="mobile__line">
+          <p class="description description_mobile">
+            E-mail: <a class="mobile__email" href="mailto:artem0203@yandex.ru">artem0203@yandex.ru</a>
+          </p>
+        </article>
+      </div>
+
+      <div class="page__content page__content_master">
+
+        <header class="header header_master">
+          <a class="header__logo-link" href="./index.html"></a>
+          <nav class="header__links header__links_master">
+            <a class="header__link" href="./design.html">UX/UI-дизайн</a>
+            <a class="header__link" href="./graphics.html">Графический дизайн</a>
+            <a class="header__link" href="./sites.html">HTML-верстка</a>
+          </nav>
+        </header>
+
+        <main class="main main_master" data-simplebar>
+
+          <article class="contact">
+            <h2 class="contact__title">Контакты для связи:</h2>
+            <div class="contact__mes">
+              <a class="contact__mes-telegram" href="http://t.me/artem0203"></a>
+              <a class="contact__mes-whatsup" href="https://wa.me/79312079086"></a>
+            </div>
+            <p class="contact__phone">+7 (931) 207-90-86</p>
+            <hr class="contact__line">
+            <p class="contact__email-text">
+              E-mail: <a class="contact__email" href="mailto:artem0203@yandex.ru">artem0203@yandex.ru</a>
+            </p>
+          </article>
+
+        </main>
+
+        <footer class="footer footer_master">
+          <nav class="footer__links footer__links_master">
+            <a class="footer__link" href="./index.html">Главная</a>
+            <a class="footer__link" href="./resume.html">Резюме</a>
+            <a class="footer__link footer__link_active" href="#">Контакты</a>
+          </nav>
+          <p class="footer__copyright">Все права защищены © <span id="currentYear"></span> Хмелёв Артём</p>
+        </footer>
+
+      </div><!-- end page__content -->
+
+      <aside class="page__aside page__aside_master page__aside_master_contact"></aside>
+
+    </section><!-- end page -->
+
+  </div><!-- end root -->
+
+  <script src="https://unpkg.com/simplebar@latest/dist/simplebar.min.js"></script>
+  <script src="./scripts/scripts.js"></script>
+
+</body>
+</html>

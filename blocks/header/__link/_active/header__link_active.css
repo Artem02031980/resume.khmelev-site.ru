@@ -1,0 +1,6 @@
+.header__link_active,
+.header__link_active:hover {
+  color: var(--color-red);
+  opacity: .8;
+  cursor: text;
+}

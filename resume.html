@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Хмелев Артем | Резюме дизайнера</title>
+  <meta name="keywords" content="Резюме, опыт работы, образование, навыки, UX/UI дизайнер, графический дизайнер, html-верстальщик">
+  <meta name="description" content="Резюме дизайнера, профиль: UX/UI дизайн, графический дизайн, html-верстка.">
+  <meta name="author" content="Хмелев Артем, artem0203@yandex.ru">
+  <meta name="robots" content="all">
+  <!-- styles -->
+  <link rel="stylesheet" href="https://unpkg.com/simplebar@latest/dist/simplebar.css"/>
+  <link rel="stylesheet" href="./pages/resume.css">
+
+</head>
+<body>
+  <div class="root">
+
+    <div class="burger">
+      <input class="burger__checkbox" type="checkbox" id="checkBurger" >
+      <label for="checkBurger" class="burger__button">
+          <div class="burger__icon"></div>
+      </label>
+      <nav class="burger__nav">
+          <a class="burger__link" href="./index.html">Главная</a>
+          <a class="burger__link" href="./design.html">UX/UI-дизайн</a>
+          <a class="burger__link" href="./graphics.html">Графический дизайн</a>
+          <a class="burger__link" href="./sites.html">HTML-верстка</a>
+          <a class="burger__link burger__link_active" href="./resume.html">Резюме</a>
+          <a class="burger__link" href="./contact.html">Контакты</a>
+      </nav>
+    </div>
+
+    <section class="page">
+
+      <h1 class="visually-hidden">Резюме Хмелева Артема — UI/UX дизайн, графический дизайнер, html/css-верстка</h1>
+
+      <div class="mobile mobile_bg_resume">
+        <article class="mobile__article">
+          <img src="./images/logo-mobile.svg" class="mobile__logo" alt="Логотип Хмелев Артем">
+          <h2 class="title title_mobile">Резюме дизайнера Артёма&nbsp;Хмелёва</h2>
+          <p class="description description_mobile">Дата рождения: 02.03.1980&nbsp;г. / лет: <span id="currentAgeMobile"></span> /</p>
+          <hr class="mobile__line">
+          <div class="mobile__scroll-down"></div>
+        </article>
+      </div>
+
+      <div class="page__content page__content_master">
+
+        <header class="header header_master">
+          <a class="header__logo-link" href="./index.html"></a>
+          <p class="title title_header-resume">Дата рождения: 02.03.1980&nbsp;г. / лет: <span id="currentAge"></span> /</p>
+          <p class="description description_header-resume">Желаемые вакансии по направлениям:</p>
+          <nav class="header__links header__links_master">
+            <a class="header__link" href="./design.html">UX/UI-дизайн</a>
+            <a class="header__link" href="./graphics.html">Графический дизайн</a>
+            <a class="header__link" href="./sites.html">HTML-верстка</a>
+          </nav>
+        </header>
+
+        <main class="main main_master" data-simplebar>
+
+          <ul class="resume">
+            <li class="resume__item">
+              <p class="resume__title">Опыт работы</p>
+              <p class="resume__description">Фриланс, 2013 г. — настоящее время. Работа по различным заказам в сфере графического дизайна, веб-дизайна и HTML/CSS-верстки. Выполнил более тысячи заказов в качестве фрилансера, - включая дизайн многостраничных сайтов и сайтов-визиток под ключ. Работал на постоянной основе с несколькими юридическими лицами. До 2013 г. работал в сфере HR.</p>
+            </li>
+            <li class="resume__item">
+              <p class="resume__title">Ключевые навыки</p>
+              <p class="resume__description">Figma, Photoshop, Illustrator, InDesign;</p>
+              <p class="resume__description">HTML/CSS (VSC), JavaScript (начинающий уровень), Git;</p>
+              <p class="resume__description">В работе использую популярные нейросети (Midjourney, Stable Diffusion, GPT, другие нейросети);</p>
+              <p class="resume__description">Применяю популярные онлайн-сервисы, плагины, фреймворки.</p>
+            </li>
+            <li class="resume__item">
+              <p class="resume__title">Образование</p>
+              <p class="resume__description">Высшее экономическое (СПбГУЭиФ, 2003);</p>
+              <p class="resume__description">В 2023 г. прошел курс «Нейродизайн» в Moscow Digital Academy (MDA);</p>
+              <p class="resume__description">В период 2021-2022 г. учился на платформах Skillbox и Яндекс.Практикум по направлению - Веб-разработчик (Frontend);</p>
+              <p class="resume__description">Прошел обучение по профессиональной переподготовке в Академии ЛИМТУ на кафедре компьютерного дизайна в 2012 г.</p>
+            </li>
+            <li class="resume__item">
+              <p class="resume__title">Дополнительная информация</p>
+              <p class="resume__description">Не имею вредных привычек, занимаюсь спортом. Наличие собственного ИП, - могу работать по договорам ГПХ, с предоставлением первичных бухгалтерских документов. Имеются современные средства производства и связи, а также необходимые навыки для удаленной работы.</p>
+            </li>
+          </ul>
+
+        </main>
+
+        <footer class="footer footer_master">
+          <a class="footer__pdf-link" href="./download/resume.pdf" target="_blank">Посмотреть резюме в PDF</a>
+          <nav class="footer__links footer__links_master">
+            <a class="footer__link" href="./index.html">Главная</a>
+            <a class="footer__link footer__link_active" href="#">Резюме</a>
+            <a class="footer__link" href="./contact.html">Контакты</a>
+          </nav>
+          <p class="footer__copyright">Все права защищены © <span id="currentYear"></span> Хмелёв Артём</p>
+        </footer>
+
+      </div><!-- end page__content -->
+
+      <aside class="page__aside page__aside_master page__aside_master_resume"></aside>
+
+    </section><!-- end page -->
+
+  </div><!-- end root -->
+
+  <script src="https://unpkg.com/simplebar@latest/dist/simplebar.min.js"></script>
+  <script src="./scripts/scripts.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,10 @@
+.footer__link_active {
+  font-family: 'Roboto+Condensed';
+  font-weight: 400;
+  color: var(--color-main);
+  cursor: default;
+}
+
+.footer__link_active:hover {
+  color: var(--color-main);
+}

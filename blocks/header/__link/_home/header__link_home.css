@@ -1,0 +1,12 @@
+.header__link_home {
+  padding-left: 20px;
+  background-image: url('./header__link_home.svg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  transition: background-image .3s ease;
+}
+
+.header__link_home:hover {
+  background-image: url('./header__link_home-hover.svg');
+}
+

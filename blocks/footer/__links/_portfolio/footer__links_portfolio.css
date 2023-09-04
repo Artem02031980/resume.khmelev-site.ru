@@ -1,0 +1,11 @@
+.footer__links_portfolio {
+  align-self: flex-end;
+}
+
+@media (max-width: 767.98px) {
+
+  .footer__links_portfolio {
+    align-self: center;
+  }
+
+}

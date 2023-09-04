@@ -1,0 +1,16 @@
+.video {
+  width: 100%;
+  max-width: 800px;
+  min-height: 450px;
+  display: block;
+  margin: 0 auto;
+}
+
+@media (max-width: 767.98px) {
+
+  .video {
+    min-height: 250px;
+  }
+
+}
+

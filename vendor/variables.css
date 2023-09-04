@@ -1,10 +1,7 @@
 :root{
-  --color-dark:#414241;
+  --color-main:#414141;
   --color-green:#325B55;
   --color-red:#5B3137;
-  --color-grey:#6D6E6E;
-  --color-white:#ffffff;
-  --color-light:#F2F1EF;
-  --color-bright:#C0C0C0;
-  --color-dark-transparent: rgba(65, 66, 65, 0.7);
+  --color-grey:#CCC;
+  --color-white:#FFF;
 }

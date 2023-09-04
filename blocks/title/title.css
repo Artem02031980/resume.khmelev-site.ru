@@ -1,30 +1,7 @@
-.title {
+.title{
   padding: 0;
-  margin: 0 0 50px 0;
-  font-family: 'Oswald';
-  font-weight: 400;
-  font-size: 36px;
-  color: var(--color-grey);
-  text-transform: uppercase;
-}
-
-@media (max-width: 1280px) {
-  .title {
-    font-size: 32px;
-    margin-bottom: 40px;
-  }
-}
-
-@media (max-width: 1024px) {
-  .title {
-    font-size: 26px;
-    margin-bottom: 30px;
-  }
-}
-
-@media (max-width: 1024px) {
-  .title {
-    font-size: 18px;
-    margin-bottom: 20px;
-  }
+  margin: 0;
+  font-family: 'Roboto+Condensed+Bold';
+  font-size: 20px;
+  font-weight: 700;
 }

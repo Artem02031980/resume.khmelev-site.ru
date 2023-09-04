@@ -1,27 +1,14 @@
 .resume {
-  margin-bottom: 100px;
+  list-style: none;
+  margin: 0;
+  padding: 60px 0;
 }
 
-@media (max-width: 1280px) {
-  .resume {
-    margin-bottom: 80px;
-  }
-}
+@media (max-width: 767.98px) {
 
-@media (max-width: 1024px) {
   .resume {
-    margin-bottom: 70px;
+    padding-top: 20px;
+    padding-bottom: 0;
   }
-}
 
-@media (max-width: 744px) {
-  .resume {
-    margin-bottom: 50px;
-  }
-}
-
-@media (max-width: 599.98px) {
-  .resume {
-    margin-bottom: 40px;
-  }
 }

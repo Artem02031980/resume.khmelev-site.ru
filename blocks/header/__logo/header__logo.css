@@ -1,27 +1,12 @@
 .header__logo {
-  font-size: 0;
-  width: 30px;
-  height: 50px;
-  background-image: url(header__logo-dark.svg);
-  background-repeat: no-repeat;
-  background-size: cover;
+  display: block;
+  width: 100px;
+  margin: 0 auto;
+  margin-bottom: 20px;
 }
 
-.header__logo:hover {
-  background-image: url(header__logo-red.svg);
-}
-
-@media (max-width: 1439.98px) {
+@media (max-width: 1399.98px) {
   .header__logo {
-    width: 25px;
-    height: 42px;
-  }
-}
-
-@media (max-width: 1023.98px) {
-  .header__logo {
-    background-image: url(header__logo-green.svg);
-    width: 18px;
-    height: 30px;
+    width: 80px;
   }
 }

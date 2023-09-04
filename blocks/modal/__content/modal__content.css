@@ -1,0 +1,10 @@
+.modal__content{
+  width: 80%;
+}
+
+@media (max-width: 1699.98px) {
+  .modal__content {
+    width: 75%;
+  }
+}
+

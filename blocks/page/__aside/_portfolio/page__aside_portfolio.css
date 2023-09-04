@@ -1,0 +1,16 @@
+.page__aside_portfolio {
+  width: 30%;
+}
+
+@media (max-width: 1699.98px) {
+  .page__aside_portfolio {
+    width: 25%;
+  }
+}
+
+@media (max-width: 1399.98px) {
+  .page__aside_portfolio {
+    width: 20%;
+  }
+}
+

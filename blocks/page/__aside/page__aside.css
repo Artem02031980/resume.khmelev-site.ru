@@ -1,0 +1,12 @@
+.page__aside {
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
+}
+
+@media (max-width: 1199.98px) {
+  .page__aside {
+    display: none;
+  }
+}

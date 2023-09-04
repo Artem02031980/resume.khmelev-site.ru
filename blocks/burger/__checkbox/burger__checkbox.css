@@ -1,0 +1,31 @@
+.burger__checkbox {
+  display: none;
+}
+
+.burger__checkbox:checked ~ .mobile-menu__nav {
+  opacity: 1;
+  transition-delay: 0s;
+}
+
+.burger__checkbox:checked ~ .burger__nav {
+  height: 100%;
+  transition-delay: 0s;
+}
+
+.burger__checkbox:checked ~ .burger__button .burger__icon {
+  background: transparent;
+}
+
+.burger__checkbox:checked ~ .burger__button .burger__icon::before, .burger__checkbox:checked ~ .burger__button .burger__icon::after {
+  top: 0;
+}
+
+.burger__checkbox:checked ~ .burger__button .burger__icon::after {
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+
+.burger__checkbox:checked ~ .burger__button .burger__icon::before {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}

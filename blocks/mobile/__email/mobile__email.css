@@ -1,0 +1,10 @@
+.mobile__email {
+  font-size: 18px;
+  text-decoration: none;
+  color: var(--color-green);
+  transition: color .3s ease;
+}
+
+.mobile__email:hover {
+  color: var(--color-red);
+}

@@ -1,0 +1,9 @@
+.mobile__line {
+  width: 30%;
+  margin: 0 auto;
+  padding: 0;
+  height: 0;
+  border: none;
+  border-top: 1px dashed var(--color-main);
+  margin-bottom: 20px;
+}

@@ -1,0 +1,36 @@
+.page__content_portfolio {
+  width: 70%;
+  padding: 6vh 50px 6vh 50px;
+}
+
+@media (max-width: 1699.98px) {
+
+  .page__content_portfolio {
+    width: 75%;
+  }
+
+}
+
+@media (max-width: 1399.98px) {
+
+  .page__content_portfolio {
+    width: 80%;
+  }
+
+}
+
+@media (max-width: 1199.98px) {
+
+  .page__content_portfolio {
+    width: 100%;
+  }
+
+}
+
+@media (max-width: 767.98px) {
+
+  .page__content_portfolio {
+    padding: 20px 0 50px 0;
+  }
+
+}

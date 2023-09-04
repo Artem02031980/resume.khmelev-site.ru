@@ -1,0 +1,51 @@
+.modal__body {
+  visibility: hidden;
+  width: 0;
+  height: 0;
+  opacity: 0;
+  overflow: hidden;
+  cursor: pointer;
+  transform: scale(0);
+}
+
+.modal__checkbox:checked ~ .modal__body {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 80%;
+  height: auto;
+  padding: 40px 0;
+  background-color: var(--color-white);
+  visibility: visible;
+  opacity: 1;
+  pointer-events: auto;
+  cursor: auto;
+  transform: scale(1);
+  transition: transform .5s ease;
+  z-index: 100;
+}
+
+@media (max-width: 1699.98px) {
+
+  .modal__checkbox:checked ~ .modal__body {
+    width: 85%;
+  }
+
+}
+
+@media (max-width: 1399.98px) {
+
+  .modal__checkbox:checked ~ .modal__body {
+    width: 90%;
+  }
+
+}
+
+@media (max-width:1199.98px){
+
+  .modal__checkbox:checked ~ .modal__body {
+    width: 100%;
+  }
+
+}

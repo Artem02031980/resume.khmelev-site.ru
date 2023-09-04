@@ -1,0 +1,9 @@
+.mobile__scroll-down {
+  margin: 0 auto;
+  width: 45px;
+  height: 45px;
+  background-repeat: no-repeat;
+  background-image: url('./mobile__scroll-down.svg');
+  background-position: center;
+  background-size: 50%;
+}

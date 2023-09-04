@@ -1,0 +1,22 @@
+.modal__close {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  font-size: 36px;
+  color: var(--color-green);
+  transition: color .3s ease, transform .5s ease;
+}
+
+ .modal__close:hover{
+  color: var(--color-red);
+  transform: rotate(360deg);
+  cursor: pointer;
+}
+
+@media (max-width: 767.98px){
+
+  .modal__close {
+    display: none;
+  }
+
+}

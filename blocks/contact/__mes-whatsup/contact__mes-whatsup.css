@@ -1,0 +1,13 @@
+.contact__mes-whatsup {
+  width: 30px;
+  height: 30px;
+  background-image: url(./contact__mes-whatsup.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  transition: background-image .3s ease;
+}
+
+.contact__mes-whatsup:hover {
+  background-image: url(./contact__mes-whatsup-hover.svg);
+}

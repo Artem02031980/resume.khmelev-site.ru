@@ -1,0 +1,75 @@
+/* vendor */
+@import url(../vendor/normalize.css);
+@import url(../vendor/variables.css);
+@import url(../vendor/fonts/roboto.css);
+@import url(../vendor/simplebar.css);
+@import url(../vendor/keyframes.css);
+
+/* root */
+@import url(../blocks/root/root.css);
+
+/* visually-hidden */
+@import url(../blocks/visually-hidden/visually-hidden.css);
+
+/* page */
+@import url(../blocks/page/page.css);
+@import url(../blocks/page/__content/page__content.css);
+@import url(../blocks/page/__content/_master/page__content_master.css);
+@import url(../blocks/page/__aside/page__aside.css);
+@import url(../blocks/page/__aside/_master/page__aside_master.css);
+@import url(../blocks/page/__aside/_master/page__aside_master_resume.css);
+
+/* header */
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/_master/header_master.css);
+@import url(../blocks/header/__logo-link/header__logo-link.css);
+@import url(../blocks/header/__links/header__links.css);
+@import url(../blocks/header/__links/_master/header__links_master.css);
+@import url(../blocks/header/__link/header__link.css);
+
+/* footer */
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/_master/footer_master.css);
+@import url(../blocks/footer/__links/footer__links.css);
+@import url(../blocks/footer/__links/_master/footer__links_master.css);
+@import url(../blocks/footer/__link/footer__link.css);
+@import url(../blocks/footer/__link/_active/footer__link_active.css);
+@import url(../blocks/footer/__copyright/footer__copyright.css);
+@import url(../blocks/footer/__pdf-link/footer__pdf-link.css);
+
+/* main */
+@import url(../blocks/main/main.css);
+@import url(../blocks/main/_master/main_master.css);
+
+/* title */
+@import url(../blocks/title/title.css);
+@import url(../blocks/title/_mobile/title_mobile.css);
+@import url(../blocks/title/_header-resume/title_header-resume.css);
+
+/* description */
+@import url(../blocks/description/description.css);
+@import url(../blocks/description/_mobile/description_mobile.css);
+@import url(../blocks/description/_header-resume/description_header-resume.css);
+
+/*resume*/
+@import url(../blocks/resume/resume.css);
+@import url(../blocks/resume/__item/resume__item.css);
+@import url(../blocks/resume/__title/resume__title.css);
+@import url(../blocks/resume/__description/resume__description.css);
+
+/* mobile */
+@import url(../blocks/mobile/mobile.css);
+@import url(../blocks/mobile/_bg/mobile_bg_resume.css);
+@import url(../blocks/mobile/__article/mobile__article.css);
+@import url(../blocks/mobile/__logo/mobile__logo.css);
+@import url(../blocks/mobile/__line/mobile__line.css);
+@import url(../blocks/mobile/__scroll-down/mobile__scroll-down.css);
+
+/* burger */
+@import url(../blocks/burger/burger.css);
+@import url(../blocks/burger/__button/burger__button.css);
+@import url(../blocks/burger/__icon/burger__icon.css);
+@import url(../blocks/burger/__links/burger__links.css);
+@import url(../blocks/burger/__link/burger__link.css);
+@import url(../blocks/burger/__link/_active/burger__link_active.css);
+@import url(../blocks/burger/__checkbox/burger__checkbox.css);

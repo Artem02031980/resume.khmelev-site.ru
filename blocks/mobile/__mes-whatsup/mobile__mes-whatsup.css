@@ -1,0 +1,13 @@
+.mobile__mes-whatsup {
+  width: 42px;
+  height: 42px;
+  background-image: url(./mobile__mes-whatsup.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  transition: background-image .3s ease;
+}
+
+.mobile__mes-whatsup:hover {
+  background-image: url(./mobile__mes-whatsup-hover.svg);
+}

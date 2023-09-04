@@ -1,27 +1,7 @@
-.contact {
-  margin-bottom: 300px;
-}
+@media (max-width: 767.98px) {
 
-@media (max-width: 1280px) {
   .contact {
-    margin-bottom: 200px;
+    display: none;
   }
-}
 
-@media (max-width: 1024px) {
-  .contact {
-    margin-bottom: 150px;
-  }
-}
-
-@media (max-width: 744px) {
-  .contact {
-    margin-bottom: 120px;
-  }
-}
-
-@media (max-width: 599.98px) {
-  .contact {
-    margin-bottom: 100px;
-  }
 }

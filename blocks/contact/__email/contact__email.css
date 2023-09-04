@@ -1,0 +1,10 @@
+.contact__email {
+  font-size: 18px;
+  text-decoration: none;
+  color: var(--color-green);
+  transition: color .3s ease;
+}
+
+.contact__email:hover {
+  color: var(--color-red);
+}

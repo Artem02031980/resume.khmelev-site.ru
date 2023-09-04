@@ -4,246 +4,193 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Резюме | Хмелев Артем</title>
-  <meta name="keywords" content="веб, разработка, сайт, дизайн, приложений, верстка, фигма, фотошоп, хтмл, цсс">
-  <meta name="description" content="Сайт-резюме на соискание вакансий: веб-дизайнер, веб-верстальщик, веб-разработчик">
+  <title>Хмелев Артем | Сайт-резюме дизайнера</title>
+  <meta name="keywords" content="UX/UI дизайнер, графический дизайнер, html-верстальщик">
+  <meta name="description" content="Сайт-резюме дизайнера: UX/UI дизайн, графический дизайн, html-верстка — недавние работы.">
   <meta name="author" content="Хмелев Артем, artem0203@yandex.ru">
   <meta name="robots" content="all">
   <!-- styles -->
+  <link rel="stylesheet" href="https://unpkg.com/simplebar@latest/dist/simplebar.css"/>
   <link rel="stylesheet" href="./pages/index.css">
+
 </head>
 <body>
-  <div class="root" id="root">
+  <div class="root">
 
-    <header class="header" >
-      <div class="header__container">
-        <a class="header__logo" href="#root"></a>
-        <nav class="header__links">
-          <a class="header__link" href="#portfolio">Портфолио</a>
-          <a class="header__link" href="#resume">Резюме</a>
-          <a class="header__link" href="#contact">Контакты</a>
-        </nav>
-        <button class="header__burger">
-          <span class="header__burger-line"></span>
-        </button>
-      </div>
-    </header>
+    <div class="burger">
+      <input class="burger__checkbox" type="checkbox" id="checkBurger" >
+      <label for="checkBurger" class="burger__button">
+          <div class="burger__icon"></div>
+      </label>
+      <nav class="burger__nav">
+          <a class="burger__link burger__link_active" href="./index.html">Главная</a>
+          <a class="burger__link" href="./design.html">UX/UI-дизайн</a>
+          <a class="burger__link" href="./graphics.html">Графический дизайн</a>
+          <a class="burger__link" href="./sites.html">HTML-верстка</a>
+          <a class="burger__link" href="./resume.html">Резюме</a>
+          <a class="burger__link" href="./contact.html">Контакты</a>
+      </nav>
+    </div>
 
-    <main class="main">
+    <section class="page">
 
-      <section class="hero">
-        <h1 class="hero__title">Сайт-резюме Хмелёва Артёма, соискателя по направлениям <nobr>«Веб-дизайн»</nobr> и <nobr>«Веб-разработка»</nobr></h1>
-        <img class="hero__image" src="./images/hero.jpg" alt="Артем Хмелев">
-        <div class="hero__container">
-          <p class="hero__description">Обладаю всеми необходимыми навыками для работы в вашей дружной и стремительно развивающейся <nobr>IT-компании</nobr></p>
-          <p class="hero__bread-title">Желаемые вакансии:</p>
-          <ul class="hero__bread">
-            <li class="hero__bread-item">Веб-мастер</li>
-            <li class="hero__bread-item">Веб-дизайнер</li>
-            <li class="hero__bread-item">UX,UI-дизайнер</li>
-            <li class="hero__bread-item">HTML-верстальщик</li>
-            <li class="hero__bread-item">Frontend-джуниор</li>
-          </ul>
-          <div class="hero__btn-box">
-            <a class="hero__btn hero__btn_main hero__btn_main_mail" href="mailto:artem0203@yandex.ru" target="_blank">На собеседование?</a>
-            <a class="hero__btn hero__btn_simple hero__btn_simple_telegram" href="https://telegram.me/artem0203" target="_blank">Просто пообщаться</a>
-          </div>
-        </div>
-      </section>
+      <h1 class="visually-hidden">Хмелев Артем — UI/UX дизайн, графический дизайнер, html/css-верстка</h1>
 
-      <section class="portfolio" id="portfolio">
-
-        <h2 class="title">Портфолио</h2>
-
-        <ul class="card">
-
-          <li class="card__master">
-            <img class="card__pic card__pic_master" src="./images/portfolio/work_01.jpg" alt="Pet-project «Музыка»">
-            <article class="card__master-article">
-              <h3 class="card__master-title">Сайт компании «СтройЭксперт»</h3>
-              <ul class="card__master-bread">
-                <li class="card__master-bread-item">Ps</li>
-                <li class="card__master-bread-item">Ai</li>
-                <li class="card__master-bread-item">HTML</li>
-                <li class="card__master-bread-item">CSS</li>
-                <li class="card__master-bread-item">JS</li>
-                <li class="card__master-bread-item">Bootstrap</li>
-              </ul>
-              <div class="card__btn-box">
-                <a class="card__btn card__btn_main card__btn_main_gosite" href="https://akb-se.ru/" target="_blank">Посмотреть сайт</a>
-                <a class="card__btn card__btn_simple card__btn_simple_github" href="https://github.com/Artem02031980/genp.ru" target="_blank">GitHub</a>
-              </div>
-              <p class="card__master-description">Сайт под ключ для архитектурно-конструкторского бюро. Векторные иллюстрации в разделе «Проектирование» выполнены собственными силами в Adobe Illustrator. С нуля разработан калькулятор на JavaScript, в разделе «Техническое обследование». Также для компании сделан логотип и фирменный стиль.</p>
-            </article>
-          </li>
-
-          <li class="card__slave">
-            <img class="card__pic card__pic_slave" src="./images/portfolio/work_02.jpg" alt="Сайт «КАС-24»">
-            <article class="card__slave-article">
-              <h3 class="card__slave-title">Сайт «КАС-24»</h3>
-              <ul class="card__slave-bread">
-                <li class="card__slave-bread-item">Ps</li>
-                <li class="card__slave-bread-item">HTML</li>
-                <li class="card__slave-bread-item">CSS</li>
-                <li class="card__slave-bread-item">JS</li>
-              </ul>
-              <div class="card__btn-box">
-                <a class="card__btn card__btn_main card__btn_main_gosite" href="http://locksopening.ru/" target="_blank">Посмотреть сайт</a>
-                <a class="card__btn card__btn_simple card__btn_simple_github" href="https://github.com/Artem02031980/locksopening.ru" target="_blank">GitHub</a>
-              </div>
-              <p class="card__slave-description">Лендинг для компании срочных услуг по аварийному вскрытию замков</p>
-            </article>
-          </li>
-
-          <li class="card__slave">
-            <img class="card__pic card__pic_slave" src="./images/portfolio/work_03.jpg" alt="Сайт «Флешка»">
-            <article class="card__slave-article">
-              <h3 class="card__slave-title">Сайт «Флешка»</h3>
-              <ul class="card__slave-bread">
-                <li class="card__slave-bread-item">Ps</li>
-                <li class="card__slave-bread-item">HTML</li>
-                <li class="card__slave-bread-item">CSS</li>
-                <li class="card__slave-bread-item">JS</li>
-              </ul>
-              <div class="card__btn-box">
-                <a class="card__btn card__btn_main card__btn_main_gosite" href="http://fleshka-spb.ru/" target="
-                ">Посмотреть сайт</a>
-                <a class="card__btn card__btn_simple card__btn_simple_github" href="https://github.com/Artem02031980/fleshka-spb.ru" target="_blank">GitHub</a>
-              </div>
-              <p class="card__slave-description">Лендинг для компании, производящей оригинальные флеш-накопители</p>
-            </article>
-          </li>
-
-          <li class="card__full">
-            <img class="card__pic card__pic_full" src="./images/portfolio/work_04.jpg" alt="Робот-пылесос ILIFE v4">
-            <article class="card__full-article">
-              <h3 class="card__full-title">Дизайн-макет приложения <nobr>«Робот-пылесос ILIFE v4»</nobr></h3>
-              <ul class="card__full-bread">
-                <li class="card__full-bread-item">Figma</li>
-              </ul>
-              <div class="card__btn-box">
-                <a class="card__btn card__btn_main card__btn_main_figma" href="https://www.figma.com/proto/HOaaQec8WS4wx9PAzVRjd2/%D0%9C%D0%BE%D0%B1%D0%B8%D0%BB%D1%8C%D0%BD%D0%BE%D0%B5-%D0%BF%D1%80%D0%B8%D0%BB%D0%BE%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5?page-id=0%3A1&type=design&node-id=9-2&viewport=476%2C166%2C0.15&scaling=scale-down&starting-point-node-id=37%3A198" target="_blank">Посмотреть макет</a>
-              </div>
-            </article>
-          </li>
-
-          <li class="card__tall">
-            <img class="card__pic card__pic_tall" src="./images/portfolio/work_05.jpg" alt="Сайт-резюме финансового аналитика»">
-            <article class="card__tall-article">
-              <h3 class="card__tall-title">Сайт-резюме финансового аналитика</h3>
-              <ul class="card__tall-bread">
-                <li class="card__tall-bread-item">Figma</li>
-                <li class="card__tall-bread-item">HTML</li>
-                <li class="card__tall-bread-item">CSS</li>
-              </ul>
-              <div class="card__btn-box">
-                <a class="card__btn card__btn_main card__btn_main_gosite" href="http://vladimir-smirnov.ru/" target="_blank">Посмотреть сайт</a>
-                <a class="card__btn card__btn_simple card__btn_simple_figma" href="https://www.figma.com/file/1CTu7nh7SWf1bZ2h7GzJNR/valadimir-smirnov.ru?node-id=0%3A1&t=0R96ePUBMpxgeBH6-1" target="_blank">Figma</a>
-                <a class="card__btn card__btn_simple card__btn_simple_github" href="https://github.com/Artem02031980/vladimir-smirnov.ru" target="_blank">GitHub</a>
-              </div>
-              <p class="card__tall-description">Лаконичный сайт-визитка, первый проект в Figma. Верстка реализована по принципу минимизации кода HTML/CSS (без БЭМ, с минимальным количеством классов, полностью отсутствует JS). Также в качестве бонуса сделано резюме в формате PDF</p>
-            </article>
-          </li>
-
-          <li class="card__wide">
-            <img class="card__pic card__pic_wide" src="./images/portfolio/work_06.jpg" alt="Сайт «IRINA-NAILS»">
-            <article class="card__wide-article">
-              <h3 class="card__wide-title">Сайт «IRINA-NAILS»</h3>
-              <p class="card__wide-description">Лендинг для частного мастера </p>
-              <ul class="card__wide-bread">
-                <li class="card__wide-bread-item">Ps</li>
-                <li class="card__wide-bread-item">HTML</li>
-                <li class="card__wide-bread-item">CSS</li>
-                <li class="card__wide-bread-item">JS</li>
-                <li class="card__wide-bread-item">Bootstrap</li>
-              </ul>
-              <div class="card__btn-box">
-                <a class="card__btn card__btn_main card__btn_main_gosite" href="http://spb-irinanails.ru/" target="_blank">Посмотреть сайт</a>
-                <a class="card__btn card__btn_simple card__btn_simple_github" href="https://github.com/Artem02031980/spb-irinanails.ru" target="_blank">GitHub</a>
-              </div>
-            </article>
-          </li>
-
-        </ul>
-
-      </section>
-
-      <section class="resume" id="resume">
-
-        <h2 class="title">Резюме</h2>
-
-        <article class="resume__hero">
-          <h3 class="resume__title">Хмелев Артем Юрьевич, 02.03.1980 (лет: <span id="currentAge"></span>), Веб-мастер</h3>
-          <img class="resume__image" src="./images/resume.jpg" alt="Артем Хмелев">
+      <div class="mobile mobile_bg_index">
+        <article class="mobile__article">
+          <img src="./images/logo-mobile.svg" class="mobile__logo" alt="Логотип Хмелев Артем">
+          <h2 class="title title_mobile">Сайт-резюме дизайнера Артёма&nbsp;Хмелёва</h2>
+          <p class="description description_mobile">Посмотреть недавние&nbsp;работы</p>
+          <hr class="mobile__line">
+          <div class="mobile__scroll-down"></div>
         </article>
-
-        <ul class="list">
-          <li class="list__item">
-            <h3 class="list__title">Опыт работы</h3>
-            <div class="list__description">
-              <p class="list__paragraph">Фриланс, 2013 — настоящее время. Работа по различным заказам в сфере графического дизайна, веб-дизайна и HTML/CSS-верстки. Выполнил более тысячи заказов в качестве фрилансера, - включая дизайн многостраничных сайтов и сайтов-визиток под ключ. Работал на постоянной основе с несколькими юридическими лицами. До 2013 года работал в сфере HR.</p>
-            </div>
-          </li>
-          <li class="list__item">
-            <h3 class="list__title">Ключевые навыки</h3>
-            <div class="list__description">
-              <p class="list__paragraph">Figma, Photoshop, Illustrator, InDesign;</p>
-              <p class="list__paragraph">HTML/CSS (VSC), JavaScript (начинающий уровень), Git;</p>
-              <p class="list__paragraph">В работе также использую популярные онлайн-сервисы, плагины, фреймворки.</p>
-            </div>
-          </li>
-          <li class="list__item">
-            <h3 class="list__title">Образование</h3>
-            <div class="list__description">
-              <p class="list__paragraph">Высшее экономическое (СПбГУЭиФ, 2003), в период 2021-2022 обучался на платформах Skillbox и Яндекс.Практикум по направлению - Веб-разработчик (Frontend). Также прошел обучение по профессиональной переподготовке в Академии ЛИМТУ на кафедре компьютерного дизайна в&nbsp;2012&nbsp;г.</p>
-            </div>
-          </li>
-          <li class="list__item">
-            <h3 class="list__title">Дополнительная информация</h3>
-            <div class="list__description">
-              <p class="list__paragraph">Не имею вредных привычек, занимаюсь спортом. Наличие собственного ИП, - могу работать по договорам ГПХ, с предоставлением первичных бухгалтерских документов. Имеются современные средства производства и связи, а также необходимые навыки для удаленной работы.</p>
-            </div>
-          </li>
-        </ul>
-
-        <div class="resume__btn-box">
-          <a class="resume__btn resume__btn_main resume__btn_main_download" href="./download/resume.pdf" target="_blank">Резюме в PDF</a>
-          <a class="resume__btn resume__btn_simple resume__btn_simple_hh" href="https://spb.hh.ru/resume/2447dffbff09704dac0039ed1f696d32686559" target="_blank">Резюме на hh.ru</a>
-          <a class="resume__btn resume__btn_simple resume__btn_simple_trudvsem" href="https://trudvsem.ru/auth/candidate/cvs/view?id=db3dc540-3be9-11ec-98d5-1b29d3b53cbb&cvViewType=VIEW" target="_blank">Резюме на trudvsem.ru</a>
-          <a class="resume__btn resume__btn_simple resume__btn_simple_superjob" href="https://spb.superjob.ru/resume/veb-master-33941891.html" target="_blank">Резюме на superjob.ru</a>
-          <a class="resume__btn resume__btn_simple resume__btn_simple_zarplata" href="https://www.zarplata.ru/resumes/e4e32ab0ff0a0defbd0039ed1f44706370567a" target="_blank">Резюме на zarplata.ru</a>
-        </div>
-
-      </section>
-
-      <section class="contact" id="contact">
-        <h2 class="title">Контакты</h2>
-        <article class="contact__hero">
-          <h3 class="contact__title">Проживаю в Мурино (Девяткино), на связи с 8:00 до 23:00</h3>
-          <div class="contact__container">
-            <p class="contact__phone">+7 931 207 90 86</p>
-            <a class="contact__phone-mobile" href="tel:+79312079086">+7 931 207 90 86</a>
-            <div class="contact__btn-box">
-              <a class="contact__btn contact__btn_simple contact__btn_simple_telegram" href="https://telegram.me/artem0203" target="_blank">Связаться по Telegram</a>
-              <a class="contact__btn contact__btn_simple contact__btn_simple_whatsup" href="https://wa.me/79312079086" target="_blank">Связаться по WhatsApp</a>
-            </div>
-            <a class="contact__mail" href="mailto:artem0203@yandex.ru">artem0203@yandex.ru</a>
-            <p class="contact__description">Готов к удаленной работе, офисные вакансии рассматриваю только в пределах Санкт-Петербурга и Всеволожского района Ленинградской области</p>
-          </div>
-          <img class="contact__image" src="./images/contact.jpg" alt="Артем Хмелев">
-        </article>
-      </section>
-
-    </main>
-
-    <footer class="footer">
-      <div class="footer__container">
-        <p class="footer__copyright">Все права защищены © <span id="currentYear"></span> Хмелёв Артём</p>
-        <a class="footer__up" href="#root"></a>
       </div>
-    </footer>
+
+      <div class="page__content page__content_master">
+
+        <header class="header header_master">
+          <img class="header__logo" src="./images/logo.svg" alt="Логотип Хмелев Артем">
+          <nav class="header__links header__links_master">
+            <a class="header__link" href="./design.html">UX/UI-дизайн</a>
+            <a class="header__link" href="./graphics.html">Графический дизайн</a>
+            <a class="header__link" href="./sites.html">HTML-верстка</a>
+          </nav>
+        </header>
+
+        <main class="main main_master" data-simplebar>
+
+          <div class="works works_master">
+
+
+            <article class="work">
+              <img class="work__pic" src="./images/preview/design_10.jpg" alt="Дизайн интернет магазина по продаже пижам">
+              <h2 class="work__title">Дизайн дизайн сайта интернет&#8209;магазина по продаже пижам</h2>
+              <p class="work__description work__description_figma">Mакет в Figma</p>
+              <a class="work__full-link" href="https://www.figma.com/file/NYh4Bgyd6GBd0dPmIDbEep/%D0%9C%D0%B0%D0%B3%D0%B0%D0%B7%D0%B8%D0%BD-%D1%83%D1%8E%D1%82%D0%BD%D1%8B%D1%85-%D0%BF%D0%B8%D0%B6%D0%B0%D0%BC?type=design&node-id=0%3A1&mode=design&t=pUNPW3EzAMJcPbFG-1" target="_blank"></a>
+            </article>
+
+            <div class="modal">
+              <input class="modal__checkbox" id="modalWork_20" type="checkbox">
+              <label class="modal__button" for="modalWork_20">
+                  <article class="work">
+                    <h2 class="work__title">Логотип и фирменные элементы для пекарни «Наш&nbsp;Хлеб»</h2>
+                    <img class="work__pic" src="./images/preview/graphics_20.jpg" alt="Фирменный стиль Наш Хлеб">
+                    <p class="work__description work__description_modal">Подробнее</p>
+                  </article>
+              </label>
+              <label class="modal__background" for="modalWork_20"></label>
+              <div class="modal__body">
+                  <label class="modal__close" for="modalWork_20">&#10005;</label>
+                  <article class="modal__content custom-scroll" data-simplebar>
+                    <h2 class="title title_modal">Разработка логотипа и фирменных элементов для пекарни «Наш&nbsp;Хлеб»</h2>
+                    <p class="description description_modal">Основной логотип</p>
+                    <img class="pic pic_after_last" src="./images/portfolio/g20_01.png" alt="Логотип Наш Хлеб">
+                    <p class="description description_modal">Ллоготипы. Векторные варианты</p>
+                    <div class="grid grid_col_duo">
+                      <img class="pic" src="./images/portfolio/g20_02.png" alt="Векторный логотип Наш Хлеб - Горизонтальный вариант">
+                      <img class="pic" src="./images/portfolio/g20_03.png" alt="Векторный логотип Наш Хлеб - Вертикальный вариант">
+                    </div>
+                    <p class="description description_modal">Логотип на упаковках</p>
+                    <div class="grid grid_col_quartet">
+                      <img class="pic" src="./images/portfolio/g20_04.png" alt="Мокап Наш Хлеб - Вариант 1">
+                      <img class="pic" src="./images/portfolio/g20_05.png" alt="Мокап Наш Хлеб - Вариант 2">
+                      <img class="pic" src="./images/portfolio/g20_06.png" alt="Мокап Наш Хлеб - Вариант 3">
+                      <img class="pic" src="./images/portfolio/g20_07.png" alt="Мокап Наш Хлеб - Вариант 4">
+                    </div>
+                    <p class="description description_modal">Оформление витрины</p>
+                    <img class="pic pic_after_last" src="./images/portfolio/g20_15.jpg" alt="Витрина Наш Хлеб">
+                    <p class="description description_modal">Баннеры для пекарни</p>
+                    <img class="pic pic_after_previous" src="./images/portfolio/g20_08.png" alt="Баннер Наш Хлеб - Вариант 1">
+                    <img class="pic pic_after_previous" src="./images/portfolio/g20_09.png" alt="Баннер Наш Хлеб - Вариант 2">
+                    <img class="pic pic_after_previous" src="./images/portfolio/g20_10.png" alt="Баннер Наш Хлеб - Вариант 3">
+                    <img class="pic pic_after_previous" src="./images/portfolio/g20_11.png" alt="Баннер Наш Хлеб - Вариант 4">
+                    <img class="pic pic_after_previous" src="./images/portfolio/g20_12.png" alt="Баннер Наш Хлеб - Вариант 5">
+                    <img class="pic pic_after_previous" src="./images/portfolio/g20_13.png" alt="Баннер Наш Хлеб - Вариант 6">
+                    <img class="pic pic_after_last" src="./images/portfolio/g20_14.png" alt="Баннер Наш Хлеб - Вариант 7">
+                  </article>
+                  <label class="modal__close-button" for="modalWork_20">Закрыть</label>
+              </div>
+            </div>
+
+            <article class="work">
+              <img class="work__pic" src="./images/preview/design_09.jpg" alt="Дизайн приложения для робота-пылесоса">
+              <h2 class="work__title">Дизайн мобильного приложения для робота&#8209;пылесоса</h2>
+              <p class="work__description work__description_figma">Mакет в Figma</p>
+              <a class="work__full-link" href="https://www.figma.com/proto/HOaaQec8WS4wx9PAzVRjd2/%D0%9C%D0%9F-%D0%A0%D0%BE%D0%B1%D0%BE%D1%82-%D0%BF%D1%8B%D0%BB%D0%B5%D1%81%D0%BE%D1%81?page-id=0%3A1&type=design&node-id=9-2&viewport=468%2C359%2C0.11&t=rrpM7oubBUAFeAia-1&scaling=scale-down&starting-point-node-id=37%3A198&mode=design" target="_blank"></a>
+            </article>
+
+            <div class="modal">
+              <input class="modal__checkbox" id="modalWork_19" type="checkbox">
+              <label class="modal__button" for="modalWork_19">
+                  <article class="work">
+                    <img class="work__pic" src="./images/preview/graphics_19.jpg" alt="Создание персонажей Genshin Impact">
+                    <h2 class="work__title">Создание новых персонажей для игры Genshin Impact</h2>
+                    <p class="work__description work__description_modal">Подробнее</p>
+                  </article>
+              </label>
+              <label class="modal__background" for="modalWork_19"></label>
+              <div class="modal__body">
+                  <label class="modal__close" for="modalWork_19">&#10005;</label>
+                  <article class="modal__content custom-scroll" data-simplebar>
+                    <h2 class="title title_modal">Создание новых персонажей для игры Genshin Impact, а также карточек и баннеров к ним</h2>
+                    <p class="description description_modal">Персонажи</p>
+                    <div class="grid grid_col_quintet">
+                        <img class="pic" src="./images/portfolio/g19_01.png" alt="Genshin Impact Эландра">
+                        <img class="pic" src="./images/portfolio/g19_02.png" alt="Genshin Impact Гринон">
+                        <img class="pic" src="./images/portfolio/g19_03.png" alt="Genshin Impact Лейкон">
+                        <img class="pic" src="./images/portfolio/g19_04.png" alt="Genshin Impact Вайра">
+                        <img class="pic" src="./images/portfolio/g19_05.png" alt="Genshin Impact Файерон">
+                    </div>
+                    <p class="description description_modal">Карточки персонажей</p>
+                    <div class="grid grid_col_quintet">
+                        <img class="pic pic_stroke" src="./images/portfolio/g19_06.jpg" alt="Карточка Genshin Impact Эландра">
+                        <img class="pic pic_stroke" src="./images/portfolio/g19_07.jpg" alt="Карточка Genshin Impact Гринон">
+                        <img class="pic pic_stroke" src="./images/portfolio/g19_08.jpg" alt="Карточка Genshin Impact Лейкон">
+                        <img class="pic pic_stroke" src="./images/portfolio/g19_09.jpg" alt="Карточка Genshin Impact Вайра">
+                        <img class="pic pic_stroke" src="./images/portfolio/g19_10.jpg" alt="Карточка Genshin Impact Файерон">
+                    </div>
+                    <p class="description description_modal">Баннеры</p>
+                    <img class="pic pic_after_previous" src="./images/portfolio/g19_11.jpg" alt="Баннер Genshin Impact Эландра">
+                    <img class="pic pic_after_previous" src="./images/portfolio/g19_12.jpg" alt="Баннер Genshin Impact Гринон">
+                    <img class="pic pic_after_previous" src="./images/portfolio/g19_13.jpg" alt="Баннер Genshin Impact Лейкон">
+                    <img class="pic pic_after_previous" src="./images/portfolio/g19_14.jpg" alt="Баннер Genshin Impact Вайра">
+                    <img class="pic pic_after_last" src="./images/portfolio/g19_15.jpg" alt="Баннер Genshin Impact Файерон">
+                  </article>
+                  <label class="modal__close-button" for="modalWork_19">Закрыть</label>
+              </div>
+            </div>
+
+            <article class="work">
+              <h2 class="work__title">Cайт конструкторского бюро «СтройЭксперт»</h2>
+              <img class="work__pic" src="./images/preview/site_01.jpg" alt="Cайт СтройЭксперт">
+              <hr class="work__line">
+              <a class="work__link work__link_site" href="https://akb-se.ru/" target="_blank">Посмотреть сайт</a>
+              <a class="work__link work__link_github" href="https://github.com/Artem02031980/genp.ru" target="_blank">Код на Github</a>
+            </article>
+
+          </div><!-- end works -->
+
+        </main>
+
+        <footer class="footer footer_master">
+          <nav class="footer__links footer__links_master">
+            <a class="footer__link footer__link_active" href="#">Главная</a>
+            <a class="footer__link" href="./resume.html">Резюме</a>
+            <a class="footer__link" href="./contact.html">Контакты</a>
+          </nav>
+          <p class="footer__copyright">Все права защищены © <span id="currentYear"></span> Хмелёв Артём</p>
+        </footer>
+
+      </div><!-- end page__content -->
+
+      <aside class="page__aside page__aside_master page__aside_master_index"></aside>
+
+    </section><!-- end page -->
 
   </div><!-- end root -->
+
+  <script src="https://unpkg.com/simplebar@latest/dist/simplebar.min.js"></script>
   <script src="./scripts/scripts.js"></script>
+
 </body>
 </html>

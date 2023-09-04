@@ -1,0 +1,16 @@
+.work__link_site {
+  bottom: 55px;
+  background-color: var(--color-green);
+  color: var(--color-white);
+  transition: background-color .3s ease;
+}
+
+.work__link_site:hover {
+  background-color: var(--color-red);
+}
+
+@media (max-width: 767.98px) {
+  .work__link_site {
+    bottom: 85px;
+  }
+}
